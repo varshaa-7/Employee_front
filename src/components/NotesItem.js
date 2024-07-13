@@ -10,6 +10,8 @@ import LeavePopup from './LeavePopup';
 const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPopup,setPopupContent})=> {
     const [showLeavePopup, setShowLeavePopup] = useState(false);
     const [leaveReason, setLeaveReason] = useState('');
+    const [leaveStartDate, setLeaveStartDate] = useState('');
+    const [leaveEndDate, setLeaveEndDate] = useState('');
     const deleteNotes=()=>{
         axios.delete(`${baseURL}/delete/${id}`).then(res =>{
             console.log(res.data);
@@ -33,13 +35,16 @@ const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPo
           })
           .catch((err) => console.log(err));
       };
-    const handleLeaveSubmit = (reason) => {
+    const handleLeaveSubmit = (reason, startDate, endDate) => {
         const updatedStatus = "on leave";
-        axios.put(`${baseURL}/leave/${id}`, { status: updatedStatus, leaveReason:reason, })
+        axios.put(`${baseURL}/leave/${id}`, { status: updatedStatus, leaveReason:reason,leaveStartDate: startDate,
+            leaveEndDate: endDate })
             .then((res) => {
                 console.log(res.data);
                 setUpdateUI((prev) => !prev);
                 setLeaveReason(reason); // Update the leave reason
+                // setLeaveStartDate(startDate);
+                // setLeaveEndDate(endDate);
             })
             .catch((err) => console.log(err));
     };
@@ -73,6 +78,7 @@ const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPo
                     {shift && <div>Shift: {shift}</div>}
                     <div>Status: {status}</div>
                     {status === 'on leave' && <div>Reason: {leaveReason}</div>}
+                    {status === 'on leave' && <div>Leave Dates: {formatDate(leaveStartDate)} - {formatDate(leaveEndDate)}</div>}
                     <div>Date: {formatDate(date)}</div>
                 </div>
                 <div className='icons'>
@@ -80,6 +86,7 @@ const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPo
                     <MdDelete className='icon' onClick={deleteNotes}/>
                     <button onClick={markOnLeave} className="beautiful-buttonl mark-button">
                         {status === 'working' ? 'On leave' : 'working'}
+                    
                     </button>
                 </div>
             </div>

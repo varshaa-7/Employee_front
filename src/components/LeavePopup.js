@@ -4,9 +4,10 @@ import './Popup.css';
 
 const LeavePopup = ({ setShowLeavePopup, handleLeaveSubmit }) => {
     const [leaveReason, setLeaveReason] = useState('');
-
+    const [leaveStartDate, setLeaveStartDate] = useState('');
+    const [leaveEndDate, setLeaveEndDate] = useState('');
     const handleSubmit = () => {
-        handleLeaveSubmit(leaveReason);
+        handleLeaveSubmit(leaveReason, leaveStartDate, leaveEndDate);
         setShowLeavePopup(false);
     };
 
@@ -33,6 +34,18 @@ const LeavePopup = ({ setShowLeavePopup, handleLeaveSubmit }) => {
                             onChange={(e) => setLeaveReason(e.target.value)}
                             type='text'
                             placeholder='Write leave reason'
+                        />
+                         <input
+                            value={leaveStartDate}
+                            onChange={(e) => setLeaveStartDate(e.target.value)}
+                            type='date'
+                            placeholder='Start Date'
+                        />
+                        <input
+                            value={leaveEndDate}
+                            onChange={(e) => setLeaveEndDate(e.target.value)}
+                            type='date'
+                            placeholder='End Date'
                         />
                         <button onClick={handleSubmit} className='beautiful-button'>Add</button>
                     </div>
