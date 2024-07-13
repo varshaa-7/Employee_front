@@ -1,0 +1,1306 @@
+{
+    "status": "ok",
+    "totalResults": 550,
+    "articles": [
+    {
+   "source": {
+    "id": "engadget",
+    "name": "Engadget"
+    },
+    "author": "Mariella Moon",
+    "title": "Apple backs Right to Repair bill in California",
+    "description": "Apple officially endorsed Senator Susan Talamantes Eggman's Right to Repair Bill in California, according to iFixit. Reuters says the tech giant even sent legislators in the state a letter, urging them to pass Senate Bill 244, which requires companies to prov…",
+    "url": "https://www.engadget.com/apple-backs-right-to-repair-bill-in-california-072227964.html",
+    "urlToImage": "https://s.yimg.com/ny/api/res/1.2/uyUgE5Ztve8OPLClevqqXg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-images/2020-03/2ff03a40-65ff-11ea-9bff-41df2740846f",
+    "publishedAt": "2023-08-24T07:22:27Z",
+    "content": "Apple officially endorsed Senator Susan Talamantes Eggman's Right to Repair Bill in California, according to iFixit. Reuters says the tech giant even sent legislators in the state a letter, urging th… [+2207 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Tim Hardwick",
+    "title": "Google's Chrome Browser Testing Bottom-Placed Address Bar on iOS",
+    "description": "Google's Chrome browser for iOS is testing an option for users to shift the address bar to the bottom of the screen, two years after Apple’s Safari made the same change.\n\n\n\n\n\nThe move, spotted by MacRumors contributor Steve Moser, is currently in beta testing…",
+    "url": "https://www.macrumors.com/2023/08/24/chrome-testing-bottom-placed-url-bar/",
+    "urlToImage": "https://images.macrumors.com/t/2sdgLBwF_o_53Bfo5n2KK7zMGb8=/1920x/article-new/2023/08/chrome-bottom-url-bar.jpg",
+    "publishedAt": "2023-08-24T10:10:59Z",
+    "content": "Google's Chrome browser for iOS is testing an option for users to shift the address bar to the bottom of the screen, two years after Apples Safari made the same change.\r\nThe move, spotted by MacRumor… [+1104 chars]"
+    },
+    {
+   "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+    },
+    "author": "Alistair Barr",
+    "title": "AI chip giant Nvidia mentioned a particular company again and again during its latest blockbuster conference call. You'll be surprised which one.",
+    "description": "An analysis of Nvidia's latest quarterly earnings call and the frequency of AI customer mentions. Here are the top companies.",
+    "url": "https://www.businessinsider.com/nvidia-preferred-ai-customers-guide-from-the-latest-earnings-call-2023-8",
+    "urlToImage": "https://i.insider.com/64e6e1d8912f290019aa3a75?width=1200&format=jpeg",
+    "publishedAt": "2023-08-24T09:00:01Z",
+    "content": "Nvidia CEO Jensen Huang delivers a keynote address at CES 2017 in Las Vegas.Photo by Ethan Miller/Getty Images\r\n<ul><li>Investors have been counting how many times executives say 'AI' on conference c… [+3365 chars]"
+    },
+    {
+   "source": {
+    "id": "business-insider",
+    "name": "Business Insider"
+    },
+    "author": "Theron Mohamed",
+    "title": "The S&P 500 is poised to fall - and a government error could crush the US economy, one veteran trader warns",
+    "description": "Peter Borish expects stocks to drop as higher interest rates and corporate costs bite, and says he has bigger fears than a recession.",
+    "url": "https://markets.businessinsider.com/news/stocks/stock-market-outlook-spx-government-shutdown-economy-earnings-recession-borish-2023-8",
+    "urlToImage": "https://i.insider.com/64e61d614c17ff0019bb03e8?width=1200&format=jpeg",
+    "publishedAt": "2023-08-24T08:42:34Z",
+    "content": "Peter Borish.Youtube/Bloomberg/Peter Borish\r\n<ul>\n<li>Stocks may slump as bonds gain ground and company profits are squeezed, Peter Borish says.</li>\n<li>A policy error like a government shutdown cou… [+2023 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Hipertextual"
+    },
+    "author": "Tomás Rivero",
+    "title": "MediaMarkt liquida sus iPhone con descuentos de varios cientos de euros",
+    "description": "Si hay algo que Apple controla a la perfección, es la depreciación de sus dispositivos. Por esto, encontrar móviles iPhone en rebajas considerables puede ser más complicado que con otras marcas, sobre todo en las versiones más recientes. Afortunadamente, no e…",
+    "url": "http://hipertextual.com/2023/08/mediamarkt-liquida-iphone-cientos-euros",
+    "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2023/08/MediaMarkt-tienda.jpg",
+    "publishedAt": "2023-08-24T06:22:07Z",
+    "content": "Si hay algo que Apple controla a la perfección, es la depreciación de sus dispositivos. Por esto, encontrar móviles iPhone en rebajas considerables puede ser más complicado que con otras marcas, sobr… [+3943 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Medium"
+    },
+    "author": "Ludi Rehak",
+    "title": "Print(“lol”) doubled the speed of my Go function",
+    "description": "Next is another function, if_max_lol(), that is identical to if_max(), except that it adds a single print(\"lol”) statement: I benchmark them on my M1 Apple Pro on an increasing array. Following…",
+    "url": "https://medium.com/@ludirehak/printing-lol-doubled-the-speed-of-my-go-code-e32e02fc3f92",
+    "urlToImage": "https://miro.medium.com/v2/resize:fit:1200/1*WnPPjgwQX-Qi2CrxS3q6xA.png",
+    "publishedAt": "2023-08-24T02:53:12Z",
+    "content": "This view highlights that the comparison in if_max_lol() spends CPU time executing a branch instruction (Branch if Less Than): BLT -6(PC).\r\nSo, the compiler saw the print(lol) statement in the source… [+2860 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Ben Schwan",
+    "title": "Vision Pro: Apple berichtet von positivem Entwickler-Feedback",
+    "description": "Im Rahmen von \"Dev Labs\" zeigt Apple Entwicklern, was das Headset des Konzerns kann. Doch wie kommt das an? Laut Apple: gut.",
+    "url": "https://www.heise.de/news/Vision-Pro-Apple-berichtet-von-positivem-Entwickler-Feedback-9283638.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/2/9/1/0/9/8/visionprolabs-083d896fc2e1b53f.jpeg",
+    "publishedAt": "2023-08-24T09:28:00Z",
+    "content": "Apples erste neue Hardware-Kategorie seit der Apple Watch im Jahr 2015 will an Mann und Frau gebracht werden. Das läuft aktuell noch direkt über Entwickler: Das sind die einzigen, die sich die Vision… [+2176 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Wolfgang Kreutz",
+    "title": "heise+ | Gekonnt abnabeln: Externe Laufwerke sicher vom Mac entfernen",
+    "description": "Wenn man ein externes Medium nicht ordnungsgemäß auswirft, bevor man es abstöpselt, meckert macOS. Ist das wirklich riskant und wie vermeidet man das Problem?",
+    "url": "https://www.heise.de/hintergrund/Gekonnt-abnabeln-Externe-Laufwerke-sicher-vom-Mac-entfernen-9278415.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/2/8/9/6/8/9/16_9_aufmacher_volumes_sicher_auswerfen-8f2bc6fbef07a5ae.png",
+    "publishedAt": "2023-08-24T07:30:00Z",
+    "content": "Inhaltsverzeichnis\r\nMacBook-Nutzer dürften das kennen: Das Gerät hängt zugeklappt am Dock mit diversen Laufwerken oder die Backup-Festplatte ist angeschlossen. Morgens müssen Sie eilig los, entkabeln… [+2191 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Sophia Zimmermann",
+    "title": "heise+ | Kompaktkamera gegen Smartphone: Wer braucht noch eine Kamera?",
+    "description": "Wann nimmt man besser die Kamera, wann das Smartphone? Um das herauszufinden, haben wir das Sony Xperia 1 V gegen die Kamera Sony ZV-1 II antreten lassen.",
+    "url": "https://www.heise.de/tests/Fotoduell-Kompaktkamera-gegen-Smartphone-Wer-braucht-noch-eine-Kamera-9278706.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/2/8/9/8/5/2/DSC01517-b24375c7223d6392.JPG",
+    "publishedAt": "2023-08-24T05:30:00Z",
+    "content": "Inhaltsverzeichnis\r\nGroße Worte: Wenn es nach Sony geht, ist das Smartphone Xperia 1 V eine Profi-Kamera. Auf seiner Website schreibt der Hersteller sogar, dass das Xperia 1 V eine Bildqualität liefe… [+1913 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "heise online"
+    },
+    "author": "Patrick Bellmer",
+    "title": "Eventim-Konkurrent: Ticket-Dienst Dice sammelt 65 Millionen US-Dollar ein",
+    "description": "Mit frischem Investorengeld will der Ticket-Verkäufer Dice die beiden Mitbewerber Eventim und Ticketmaster in Europa stärker unter Druck setzen.",
+    "url": "https://www.heise.de/news/Eventim-Konkurrent-Ticket-Dienst-Dice-sammelt-65-Millionen-US-Dollar-ein-9283381.html",
+    "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/2/9/0/9/6/4/Mora_PS_MAD_23_09_06_23_Christian_Bertrand03-e758bb31b2389370.jpeg",
+    "publishedAt": "2023-08-24T08:00:00Z",
+    "content": "Der britische Ticket-Dienstleister Dice hat seine jüngste Finanzierungsrunde erfolgreich abgeschlossen. Wie das 2014 gegründete Unternehmen gegenüber Techcrunch mitteilte, kamen insgesamt 65 Millione… [+2855 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "9to5Mac"
+    },
+    "author": "Filipe Espósito",
+    "title": "Apple decides to support Right to Repair Act bill in California",
+    "description": "Back in 2018, the State of California joined the Right to Repair Act bill, which aims to create laws that force tech companies to provide tools for both customers and independent stores to repair their products. Although Apple was initially against this bill,…",
+    "url": "https://9to5mac.com/2023/08/23/apple-support-right-to-repair/",
+    "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2021/11/Another-Apple-PR-fail-over-Right-to-Repair.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "publishedAt": "2023-08-24T00:27:28Z",
+    "content": "Back in 2018, the State of California joined the Right to Repair Act bill, which aims to create laws that force tech companies to provide tools for both customers and independent stores to repair the… [+2445 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "9to5Mac"
+    },
+    "author": "Filipe Espósito",
+    "title": "USB-C cable included with iPhone 15 may be limited to USB 2.0 speeds",
+    "description": "It’s only three weeks until Apple announces the next generation iPhone, and we’ve been hearing more details about the new phones. Last week, a rumor claimed that some iPhone 15 models will support Thunderbolt for faster data transfer speeds. While this may st…",
+    "url": "https://9to5mac.com/2023/08/23/usb-c-cable-iphone-15-2-0-speeds/",
+    "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/04/15-8.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "publishedAt": "2023-08-24T02:18:31Z",
+    "content": "It’s only three weeks until Apple announces the next generation iPhone, and we’ve been hearing more details about the new phones. Last week, a rumor claimed that some iPhone 15 models will support Th… [+3012 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "AppleInsider"
+    },
+    "author": "news@appleinsider.com (William Gallagher)",
+    "title": "Rumor: iPhone 15 USB-C cable limited to USB 2.0 speeds, has no MFi",
+    "description": "A new leak shows that USB-C charging cable for the iPhone 15 will transfer data at USB 2.0 speeds, and there is no MFi authentication on the cable.While recent predictions of the iPhone 15 range's expected USB-C connector have concentrated on it potentially h…",
+    "url": "https://appleinsider.com/articles/23/08/24/rumor-iphone-15-usb-c-cable-limited-to-usb-20-speeds-has-no-mfi",
+    "urlToImage": "https://photos5.appleinsider.com/gallery/55745-113264-000-lead-iPhone-15-Pro-render-xl.jpg",
+    "publishedAt": "2023-08-24T10:20:50Z",
+    "content": "A new leak shows that USB-C charging cable for the iPhone 15 will transfer data at USB 2.0 speeds, and there is no MFi authentication on the cable.\r\nWhile recent predictions of the iPhone 15 range's … [+1672 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Gizmodo.jp"
+    },
+    "author": "小暮ひさのり",
+    "title": "旅行先でApple Watchの充電どうする？の答えが出たかもしれない",
+    "description": "エレコムからApple Watch充電器「MPA-AWMCQ」シリーズ発売。コードが巻き取り式で持ち運びに便利。",
+    "url": "https://www.gizmodo.jp/2023/08/elecom-apple-watch-charger-1.html",
+    "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2023/01/26/2023-01-26wak00.jpg?w=1280&h=630&f=jpg",
+    "publishedAt": "2023-08-24T07:45:00Z",
+    "content": "Copyright © mediagene Inc. All Rights Reserved."
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Journal du geek"
+    },
+    "author": "JDG Media",
+    "title": "L’iPad est affiché à un tarif tellement bas que c’est insolent",
+    "description": "Cette tablette est considérée comme la meilleure, si vous aimez le matériel Apple à prix abordable.\nL’iPad est affiché à un tarif tellement bas que c’est insolent",
+    "url": "https://www.journaldugeek.com/2023/08/24/lipad-est-affiche-a-un-tarif-tellement-bas-que-cest-insolent/",
+    "urlToImage": "https://www.journaldugeek.com/content/uploads/2023/08/ipad.jpg",
+    "publishedAt": "2023-08-24T06:15:04Z",
+    "content": "Cette tablette est considérée comme la meilleure, si vous aimez le matériel Apple à prix abordable.L’iPad 9 est vendu 349 euros seulement chez Amazon, au lieu de 439 euros d’habitude : 21% de réducti… [+3654 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "Fran Bouzas",
+    "title": "Un iPhone 15 en Ciudad de México: pillan al actor de los Tour Guiados grabando nuevo contenido para Apple",
+    "description": "Ya queda muy poco para que Apple anuncie su Keynote de septiembre, en la que veremos el iPhone 15, el Apple Watch Series 9 y el Apple Watch Ultra de segunda generación. Se rumorea también la posibilidad de que en Cupertino decidan lanzar un iPad mini 7, y tam…",
+    "url": "https://www.applesfera.com/iphone/iphone-15-ciudad-mexico-pillan-al-actor-tour-guiados-grabando-nuevo-contenido-para-apple",
+    "urlToImage": "https://i.blogs.es/33412e/captura-de-pantalla-2023-08-24-a-las-9.59.01/840_560.png",
+    "publishedAt": "2023-08-24T08:05:29Z",
+    "content": "Ya queda muy poco para que Apple anuncie su Keynote de septiembre, en la que veremos el iPhone 15, el Apple Watch Series 9 y el Apple Watch Ultra de segunda generación. Se rumorea también la posibili… [+1750 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "Jesús Quesada",
+    "title": "Los auriculares Bluetooth con \"la mejor cancelación de ruido del mundo\" están más rebajados que nunca",
+    "description": "Si bien los AirPods Pro son los reyes de los auriculares Bluetooth totalmente inalámbricos, no están solos en el sector y compiten contra propuestas tan buenas como los Bose QuietComfort Earbuds II, que ahora mismo están rebajados a precio mínimo histórico en…",
+    "url": "https://www.applesfera.com/seleccion/auriculares-bluetooth-mejor-cancelacion-ruido-mundo-estan-rebajados-que-nunca",
+    "urlToImage": "https://i.blogs.es/2e974b/auriculares-bluetooth-bose/840_560.jpeg",
+    "publishedAt": "2023-08-24T06:32:30Z",
+    "content": "Si bien los AirPods Pro son los reyes de los auriculares Bluetooth totalmente inalámbricos, no están solos en el sector y compiten contra propuestas tan buenas como los Bose QuietComfort Earbuds II, … [+3376 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Applesfera.com"
+    },
+    "author": "Miguel López",
+    "title": "Estos son los móviles iPhone que desaparecerán de la App Store tras la llegada del iPhone 15",
+    "description": "Cuando Apple lanza una nueva generación de sus iPhone solemos mirar cómo queda esa gama para el público porque así se adivinan ciertas tendencias (como por ejemplo el fin de los tamaños mini en favor de un tamaño Plus). Pero lo más inteligente es también mira…",
+    "url": "https://www.applesfera.com/iphone/estos-moviles-iphone-que-desapareceran-app-store-llegada-iphone-15",
+    "urlToImage": "https://i.blogs.es/9f7dae/captura-de-pantalla-2023-08-24-a-las-11.37.15/840_560.jpeg",
+    "publishedAt": "2023-08-24T09:43:29Z",
+    "content": "Cuando Apple lanza una nueva generación de sus iPhone solemos mirar cómo queda esa gama para el público porque así se adivinan ciertas tendencias (como por ejemplo el fin de los tamaños mini en favor… [+3611 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Presse-citron"
+    },
+    "author": "Manon Carpentier",
+    "title": "L’âge d’or des plateformes de streaming n’est plus",
+    "description": "Les SVOD se multiplient et augmentent leurs tarifs. La facture mensuelle est de plus en plus salée pour les abonnés.",
+    "url": "https://www.presse-citron.net/lage-dor-des-plateformes-de-streaming-nest-plus/",
+    "urlToImage": "https://www.presse-citron.net/app/uploads/2022/01/homme-femme-télévision.jpg",
+    "publishedAt": "2023-08-24T08:30:16Z",
+    "content": "<ul><li>Les SVOD augmentent tous leurs tarifs</li><li>Pour profiter de toutes les offres disponibles, la facture est onéreuse</li><li>Un changement de stratégie qui ne réjouit pas les utilisateurs</l… [+3615 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Presse-citron"
+    },
+    "author": "Presse-citron",
+    "title": "En sortant ce bonus inédit et gratuit, Fortuneo va écraser les banques françaises",
+    "description": "Pour la rentrée, Fortuneo ne veut laisser aucune chance à la concurrence. La banque la moins chère de France offre aussi un bonus colossal de 160 euros pour ouvrir un compte gratuit avec une carte Gold. C'est la prime la plus généreuse de toute l'année, dépêc…",
+    "url": "https://www.presse-citron.net/en-sortant-ce-bonus-inedit-et-gratuit-fortuneo-va-ecraser-les-banques-francaises/",
+    "urlToImage": "https://www.presse-citron.net/app/uploads/2022/10/banqueenligneprime.jpg",
+    "publishedAt": "2023-08-24T05:10:04Z",
+    "content": "Voici une offre exclusive pour nos lecteurs de Presse-citron. Du 24 août au 7 septembre, Fortuneo vous offre 160 euros de bonus pour ouvrir un compte gratuit – associé à une carte Gold Mastercard gra… [+4298 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Golem.de"
+    },
+    "author": "Martin Böckmann",
+    "title": "(g+) Prozessoren erklärt: Frequenzen, Caches, Nanometer: Das Kernproblem der CPUs",
+    "description": "Viel oder wenig Kerne, P- oder E-Cores oder doch lieber 3D-V-Cache? Wir erklären, was die CPU-Kerne unterscheidet und geben Hilfestellungen für die Prozessorwahl. Eine Anleitung von Martin Böckmann (Prozessor, Apple)",
+    "url": "https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Fprozessoren-erklaert-frequenzen-caches-nanometer-das-kernproblem-der-cpus-2308-176776.html&referer=https%3A%2F%2Ft.co%2Fe68ace0d9f",
+    "urlToImage": null,
+    "publishedAt": "2023-08-24T10:05:03Z",
+    "content": "Besuchen Sie Golem.de wie gewohnt mit Werbung und Tracking,\r\n indem Sie der Nutzung aller Cookies zustimmen.\r\n Details zum Tracking finden Sie im Privacy Center.\r\nSkript wurde nicht geladen. Informat… [+607 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Android Authority"
+    },
+    "author": "Adamya Sharma",
+    "title": "Details leak about Apple’s USB-C cable for the iPhone 15 series",
+    "description": "The USB-C cable Apple is planning to bundle with the iPhone 15 series could have the same data transfer speeds as Lightning, which is bad news.",
+    "url": "https://www.androidauthority.com/apple-iphone-15-usb-c-cable-specs-3357623/",
+    "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2021/09/Lightning-Connector-vs-USB-C-cable.jpg",
+    "publishedAt": "2023-08-24T05:39:06Z",
+    "content": "<ul><li>Apples UBB-C cable for the iPhone 15 series may only support USB 2.0 data transfer speeds.</li><li>Previous rumors have suggested that the Pro iPhone 15 models could feature higher-speed tran… [+2068 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Small Business Trends"
+    },
+    "author": "Samson Haileyesus",
+    "title": "102 Top Fitness Influencers",
+    "description": "Here are the top influencers keeping their audience in shape while giving brands in the industry a great outlet outside of traditional advertising.",
+    "url": "https://smallbiztrends.com/2023/08/top-fitness-influencers.html",
+    "urlToImage": "https://media.smallbiztrends.com/2021/11/top-fitness-influencers-.png",
+    "publishedAt": "2023-08-24T08:00:09Z",
+    "content": "In todays world, social media has become the new social proof. Social media users are ever more looking for influencers to get insights into product reviews, seek knowledge on issues and connect with… [+31474 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "CNET"
+    },
+    "author": "Sareena Dayaram （CNET News） 翻訳校正： 編集部",
+    "title": "将来の「Apple Watch」は、来ている服に合わせて文字盤の色が変化するかも",
+    "description": "アップルが最近取得した特許は、ユーザーが望むものに合わせて文字盤の色を変えることで、文字盤のデザインをより柔軟に制御できるようにすることを提案している。",
+    "url": "https://japan.cnet.com/article/35208191/",
+    "urlToImage": "https://japan.cnet.com/storage/2023/08/24/28dbd6880931d507ae83f7e8662be530/011-apple-event-9-15-2020-apple-watch-series-6_1280x960.jpg",
+    "publishedAt": "2023-08-24T00:59:00Z",
+    "content": "Apple WatchApple Watch\r\n823AppleTApple WatchTouch ID\r\nElectronic Devices With Color Sampling SensorsApple Watch\r\n202082023823\r\nRed Ventures"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "MacRumors"
+    },
+    "author": "Tim Hardwick",
+    "title": "iPhone 15 USB-C Cables Again Said to Be Limited to USB 2.0 Transfer Speeds",
+    "description": "All iPhone 15 models this year are expected to adopt USB-C ports for the first time, and while USB-C has several advantages over Lightning, another rumor today suggests that Apple's standard iPhone 15 and iPhone 15 Plus models are unlikely to enjoy any increa…",
+    "url": "https://www.macrumors.com/2023/08/24/iphone-15-usb-c-cable-usb2-transfer-speeds/",
+    "urlToImage": "https://images.macrumors.com/t/BRgr5_499ria-8De8ojBlbh1IBQ=/2048x/article-new/2023/08/1.5m-usb-c-cable-iphone-15.jpeg",
+    "publishedAt": "2023-08-24T09:05:55Z",
+    "content": "All iPhone 15 models this year are expected to adopt USB-C ports for the first time, and while USB-C has several advantages over Lightning, another rumor today suggests that Apple's standard iPhone 1… [+1267 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Xatakamovil.com"
+    },
+    "author": "Álvaro García M.",
+    "title": "Terror, lo mejor para el calor: la última película de 'Scream' y otras 20 novedades en streaming esta semana",
+    "description": "Aunque es una semana algo más floja de lo habitual en lo que a cantidad se refiere, las plataformas de streaming siguen dejando novedades. Y nos centramos en el terror debido a que ‘Scream VI’ aterriza esta semana en plataformas y, suponemos, los escalofríos …",
+    "url": "https://www.xatakamovil.com/streaming/terror-mejor-para-calor-ultima-pelicula-scream-otras-20-novedades-streaming-esta-semana",
+    "urlToImage": "https://i.blogs.es/e36473/scream/840_560.jpeg",
+    "publishedAt": "2023-08-24T08:01:27Z",
+    "content": "Aunque es una semana algo más floja de lo habitual en lo que a cantidad se refiere, las plataformas de streaming siguen dejando novedades. Y nos centramos en el terror debido a que Scream VI aterriza… [+3242 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Xatakamovil.com"
+    },
+    "author": "Alejandro Alcolea",
+    "title": "Google se rinde y Chrome copiará la barra de búsqueda de Safari: así puedes activar el buscador en la zona inferior",
+    "description": "Hace un par de años, Apple dio un cambio radical a la ergonomía de Safari. Tradicionalmente, tanto en móviles como en ordenadores, la barra de búsqueda y URL de un navegador se ubicaba en la parte superior. Sin embargo, a partir de iOS 15, Safari cambió esa b…",
+    "url": "https://www.xatakamovil.com/apple/google-se-rinde-chrome-copiara-barra-busqueda-safari-asi-puedes-activar-buscador-zona-inferior",
+    "urlToImage": "https://i.blogs.es/b8f2a0/analisis-galaxy-watch-6-classic-26/840_560.jpeg",
+    "publishedAt": "2023-08-24T10:20:01Z",
+    "content": "Hace un par de años, Apple dio un cambio radical a la ergonomía de Safari. Tradicionalmente, tanto en móviles como en ordenadores, la barra de búsqueda y URL de un navegador se ubicaba en la parte su… [+2780 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "tagesschau.de"
+    },
+    "author": "tagesschau.de",
+    "title": "Bargeldloses Bezahlen per Girocard hat weiter zugenommen",
+    "description": "Der Aufwärtstrend beim bargeldlosen Bezahlen mit der Girocard hält an. Banken und Sparkassen versprechen weitere Einsatzmöglichkeiten: Bald soll es möglich sein, in allen Situationen mit ihr zu bezahlen.",
+    "url": "https://www.tagesschau.de/wirtschaft/verbraucher/bargeld-girocard-beargeldloses-bezahlen-kontaktlos-nfc-100.html",
+    "urlToImage": "https://images.tagesschau.de/image/e0287ec0-aba6-4a47-83ba-e58d4c49b8f3/AAABiiaPSpo/AAABibBxqrQ/16x9-1280/girocard-110.jpg",
+    "publishedAt": "2023-08-24T09:01:51Z",
+    "content": "Stand: 24.08.2023 11:01 Uhr\r\nDer Aufwärtstrend beim bargeldlosen Bezahlen mit der Girocard hält an. Banken und Sparkassen versprechen weitere Einsatzmöglichkeiten: Bald soll es möglich sein, in allen… [+3655 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "tagesschau.de"
+    },
+    "author": "tagesschau.de",
+    "title": "KI-Boom hält Chipkonzern Nvidia auf Rekordkurs",
+    "description": "Der Boom der Künstlichen Intelligenz (KI) hat dem Chipkonzern Nvidia zu ausgezeichneten Geschäftszahlen verholfen. Der Chipkonzern ist der größte Anbieter von Spezialchips für rechenhungrige KI-Anwendungen.",
+    "url": "https://www.tagesschau.de/wirtschaft/technologie/nvidia-ki-chips-quartalszahlen-kuenstliche-imntelligenz-boom-gewinn-100.html",
+    "urlToImage": "https://images.tagesschau.de/image/a5afe3c8-a934-414c-9970-42b06e98d9de/AAABiiZLPrY/AAABibBxqrQ/16x9-1280/nvidia-112.jpg",
+    "publishedAt": "2023-08-24T07:32:50Z",
+    "content": "Stand: 24.08.2023 09:32 Uhr\r\nDer Boom der Künstlichen Intelligenz (KI) hat dem Chipkonzern Nvidia zu ausgezeichneten Geschäftszahlen verholfen. Der Chipkonzern ist der größte Anbieter von Spezialchip… [+3866 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Caschys Blog"
+    },
+    "author": "Olli",
+    "title": "Apple iOS 17 Public Beta 5 veröffentlicht",
+    "description": "Nachdem Apple kürzlich die siebente Beta von iOS 17 für Entwickler veröffentlicht hat, folgt nun wieder neues Futter zum Testen für all diejenigen, die sich für das Public-Beta-Programm registriert haben. Ab sofort könnt ihr über die Einstellungen des iPhones…",
+    "url": "https://stadt-bremerhaven.de/apple-ios-17-public-beta-5-veroeffentlicht/",
+    "urlToImage": "https://stadt-bremerhaven.de/wp-content/uploads/2023/06/IMAGE-2023-06-05-193538.jpg",
+    "publishedAt": "2023-08-24T03:58:48Z",
+    "content": "Nachdem Apple kürzlich die siebente Beta von iOS 17 für Entwickler veröffentlicht hat, folgt nun wieder neues Futter zum Testen für all diejenigen, die sich für das Public-Beta-Programm registriert h… [+1604 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Caschys Blog"
+    },
+    "author": "Olli",
+    "title": "iPhone 15: Beiliegendes USB-C-Kabel könnte nur langsame Geschwindigkeiten unterstützen",
+    "description": "Das iPhone 15 soll das erste Smartphone von Apple werden, das mit USB-C ausgestattet wird. Damit würde Apple den EU-Regularien gerecht werden und außerdem endlich auch schnellere Geschwindigkeiten als Lightning unterstützen, was gerade für den Transfer von gr…",
+    "url": "https://stadt-bremerhaven.de/iphone-15-beiliegendes-usb-c-kabel-koennte-nur-langsame-geschwindigkeiten-unterstuetzen/",
+    "urlToImage": "https://stadt-bremerhaven.de/wp-content/uploads/2022/10/Apple-iPhone-14-Test-10.jpg",
+    "publishedAt": "2023-08-24T04:30:36Z",
+    "content": "Das iPhone 15 soll das erste Smartphone von Apple werden, das mit USB-C ausgestattet wird. Damit würde Apple den EU-Regularien gerecht werden und außerdem endlich auch schnellere Geschwindigkeiten al… [+1699 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Caschys Blog"
+    },
+    "author": "André Westphal",
+    "title": "Googles Pläne für Augmented Reality tragen keine Früchte",
+    "description": "Ich hatte schon vor einer Weile darüber gebloggt, dass Google im Bereich Augmented Reality wohl mit seinen internen Projekten aktuell kaum vorankommt. Laut einem Bericht von Insider hat es da beim Unternehmen wohl hinter den Kulissen mehrere Strategiewechsel …",
+    "url": "https://stadt-bremerhaven.de/googles-plaene-fuer-augmented-reality-tragen-keine-fruechte/",
+    "urlToImage": "https://stadt-bremerhaven.de/wp-content/uploads/2022/01/google-logo.jpg",
+    "publishedAt": "2023-08-24T07:00:48Z",
+    "content": "Ich hatte schon vor einer Weile darüber gebloggt, dass Google im Bereich Augmented Reality wohl mit seinen internen Projekten aktuell kaum vorankommt. Laut einem Bericht von Insider hat es da beim Un… [+1823 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Caschys Blog"
+    },
+    "author": "André Westphal",
+    "title": "Microsoft könnte Paint und seine Fotos-App mt KI aufwerten",
+    "description": "Microsoft könnte laut einem Bericht von Windows Central mehr Apps mit KI-Funktionen ausstatten. Konkret sei dies aktuell für etwa Paint und Fotos unter Windows 11 geplant. Im Rahmen der Experimente testet man auch OCR für das Snipping-Tool, die Kamera und...Z…",
+    "url": "https://stadt-bremerhaven.de/microsoft-koennte-paint-und-seine-fotos-app-mt-ki-aufwerten/",
+    "urlToImage": "https://stadt-bremerhaven.de/wp-content/uploads/2023/08/Microsoft-Paint-AI.jpeg",
+    "publishedAt": "2023-08-24T06:30:44Z",
+    "content": "Microsoft könnte laut einem Bericht von Windows Central mehr Apps mit KI-Funktionen ausstatten. Konkret sei dies aktuell für etwa Paint und Fotos unter Windows 11 geplant. Im Rahmen der Experimente t… [+1438 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Frandroid"
+    },
+    "author": "Noémie Koskas",
+    "title": "L’iPad 9, ou la meilleure solution pour payer sa tablette Apple pas chère",
+    "description": "L'iPad 9 de 2021 a déjà deux ans, mais il demeure encore aujourd'hui une valeur sûre qui se destine tout particulièrement à celles et ceux qui souhaitent posséder une tablette Apple efficace sans payer le prix fort. D'autant plus qu'aujourd'hui, cette ancienn…",
+    "url": "https://www.frandroid.com/bons-plans/1728115_lipad-9-ou-la-meilleure-solution-pour-payer-sa-tablette-apple-pas-chere",
+    "urlToImage": "https://images.frandroid.com/wp-content/uploads/2022/02/p1000836-scaled.jpg",
+    "publishedAt": "2023-08-24T08:09:42Z",
+    "content": "L'iPad 9 de 2021 a déjà deux ans, mais il demeure encore aujourd'hui une valeur sûre qui se destine tout particulièrement à celles et ceux qui souhaitent posséder une tablette Apple efficace sans pay… [+4686 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Frandroid"
+    },
+    "author": "Titouan Gourlin",
+    "title": "iPhone 15 : leur USB-C serait bel et bien « universel », mais il y a un mais",
+    "description": "L'iPhone 15 devrait bel et bien intégrer l'USB-C, mais il ne supporterait que l'USB 2.0. Bonne nouvelle cependant : il n'y aurait pas de puce d'identification des accessoires, autorisant les câbles non officiels à fonctionner à plein régime.",
+    "url": "https://www.frandroid.com/marques/apple/1774573_iphone-15-leur-usb-c-serait-bel-et-bien-universel-mais-il-y-a-un-mais",
+    "urlToImage": "https://images.frandroid.com/wp-content/uploads/2022/10/usb-c.jpg",
+    "publishedAt": "2023-08-24T08:16:53Z",
+    "content": "L'iPhone 15 devrait bel et bien intégrer l'USB-C, mais il ne supporterait que l'USB 2.0. Bonne nouvelle cependant : il n'y aurait pas de puce d'identification des accessoires, autorisant les câbles n… [+2080 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Wwwhatsnew.com"
+    },
+    "author": "Miriam Schuager",
+    "title": "Spotify tiene nuevas funciones para que promociones tus podcasts",
+    "description": "Spotify está sumando una serie de nuevas funciones para que los creadores puedan destacar sus mejores episodios y atraer a nueva audiencia. Para ello, dará más control a los usuarios para que personalicen la página de podcasts y decidan cómo presentar sus con…",
+    "url": "https://wwwhatsnew.com/2023/08/24/spotify-tiene-nuevas-funciones-para-que-promociones-tus-podcasts/",
+    "urlToImage": "https://wwwhatsnew.com/wp-content/uploads/2023/08/podcasts.jpg",
+    "publishedAt": "2023-08-24T02:00:28Z",
+    "content": "Spotify está sumando una serie de nuevas funciones para que los creadores puedan destacar sus mejores episodios y atraer a nueva audiencia.\r\nPara ello, dará más control a los usuarios para que person… [+2253 chars]"
+    },
+    {
+   "source": {
+    "id": "lenta",
+    "name": "Lenta"
+    },
+    "author": "Андрей Ставицкий",
+    "title": "Apple отказалась признавать проблему самых дорогих наушников бренда",
+    "description": "Корпорация Apple отказалась признавать проблему самых дорогих наушников AirPods, пишет 404 Media. Ранее владельцы AirPods Max отметили, что в чашечках наушников собирается конденсат. Юристы Apple в ответ заявили, что компания не считает данную особенность гар…",
+    "url": "https://lenta.ru/news/2023/08/24/airpodsmax/",
+    "urlToImage": "https://icdn.lenta.ru/images/2023/08/23/16/20230823161223019/share_2ce47253827db086e34fb8e886e73f9e.jpeg",
+    "publishedAt": "2023-08-24T07:41:00Z",
+    "content": "Apple AirPods. 404 Media.\r\n , . AirPods Max , . Apple , . AirPods Max Apple, 550 , 52 .\r\n , 2020 , . , . , .\r\n Apple , , . , , .\r\n MacRumors Apple . Apple TV, AirPods Max, «» MacBook."
+    },
+    {
+   "source": {
+    "id": "lenta",
+    "name": "Lenta"
+    },
+    "author": "Олег Давыдов",
+    "title": "Россиян предупредили о новом способе взлома iPhone",
+    "description": "Хакеры создали новое устройство для взлома iPhone. По данным СМИ, разработка маскируется под ТВ-приставку и отправляет владельцу устройства на базе iOS предложение подключить Apple ID или поделиться паролем с Apple TV. Если пользователь отвечает согласием, то…",
+    "url": "https://lenta.ru/news/2023/08/24/hackers/",
+    "urlToImage": "https://icdn.lenta.ru/images/2023/08/24/10/20230824103821374/share_da6fff41b3cd443c25908f116e03578a.jpg",
+    "publishedAt": "2023-08-24T07:48:19Z",
+    "content": ", - iOS. iPhone «».\r\n , - iPhone Apple ID Apple TV. , .\r\n, , . , 15 iPhone Bluetooth, iOS.\r\n « » iPhone . Wi-Fi."
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "01net.com"
+    },
+    "author": "Stéphanie Bascou",
+    "title": "Le fabricant de semi-conducteurs Nvidia, grand gagnant de l’IA, double son chiffre d’affaires",
+    "description": "C'est le grand gagnant de l'IA. Nvidia, le leader mondial des GPU, a présenté des résultats du deuxième trimestre exceptionnels, tirés vers le haut par la demande mondiale pour ses puces qui alimentent les systèmes d'intelligence artificielle générative (IA) …",
+    "url": "https://www.01net.com/actualites/le-fabricant-de-semi-conducteurs-nvidia-grand-gagnant-de-lia-double-son-chiffre-daffaires.html",
+    "urlToImage": "https://www.01net.com/app/uploads/2023/07/nvidia-logo.jpg",
+    "publishedAt": "2023-08-24T09:59:03Z",
+    "content": "C’est le grand gagnant de l’IA. Nvidia, le leader mondial des GPU, a présenté des résultats du deuxième trimestre exceptionnels, tirés vers le haut par la demande mondiale pour ses puces qui alimente… [+3866 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "GSMArena.com"
+    },
+    "author": "Peter",
+    "title": "USB C-to-C cables for iPhone 15 and 15 Plus handled: no MFi, USB 2.0 speeds",
+    "description": "There were some concerns over how Apple will implement USB-C on the upcoming iPhone 15 series. Researcher Majin Bu reports some good news: the new cables will not use Apple’s MFi chips for verification, so third-party cables and accessories will not be restri…",
+    "url": "https://www.gsmarena.com/usb_ctoc_cables_for_iphone_15_and_15_plus_handled_no_mfi_usb_20_speeds-news-59649.php",
+    "urlToImage": "https://fdn.gsmarena.com/imgroot/news/23/08/iphone-15-charging-cables/-952x498w6/gsmarena_000.jpg",
+    "publishedAt": "2023-08-24T10:13:01Z",
+    "content": "There were some concerns over how Apple will implement USB-C on the upcoming iPhone 15 series. Researcher Majin Bu reports some good news: the new cables will not use Apples MFi chips for verificatio… [+1469 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "01net.com"
+    },
+    "author": "Geoffroy Ondet",
+    "title": "iOS : comment afficher la barre d’adresses de Chrome en bas de l’écran",
+    "description": "Google copie Apple et teste dans Chrome une option permettant d’afficher la barre d’adresses du navigateur en bas de l’écran, comme sur Safari. Voici comment faire.",
+    "url": "https://www.01net.com/astuces/ios-comment-afficher-la-barre-dadresses-de-chrome-en-bas-de-lecran.html",
+    "urlToImage": "https://www.01net.com/app/uploads/2023/08/Google-Chrome.jpg",
+    "publishedAt": "2023-08-24T08:47:07Z",
+    "content": "Google copie Apple et teste dans Chrome une option permettant dafficher la barre dadresses du navigateur en bas de lécran, comme sur Safari. Voici comment faire.Afficher la barre dadresses de Chrome … [+2607 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Motley Fool"
+    },
+    "author": "newsfeedback@fool.com (Sean Williams)",
+    "title": "1 Pricey FAANG Stock Billionaires Are Buying Hand Over Fist and 2 They're Surprisingly Selling",
+    "description": "Among Meta Platforms (formerly Facebook), Apple, Amazon, Netflix, and Alphabet (formerly Google), there's one shocking company billionaires are piling into and two rock-solid companies they're avoiding.",
+    "url": "https://www.fool.com/investing/2023/08/24/1-faang-stock-billionaires-buying-and-2-selling/",
+    "urlToImage": "https://g.foolcdn.com/editorial/images/744790/buy-sell-dice-on-financial-graph-stock-market-getty.jpg",
+    "publishedAt": "2023-08-24T09:21:00Z",
+    "content": "As an investor, it's easy to become overwhelmed by the amount of data at your disposal. Corporate earnings releases and economic data make it easy to potentially miss important announcements. On Mond… [+8692 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Motley Fool"
+    },
+    "author": "newsfeedback@fool.com (Motley Fool Transcribing)",
+    "title": "Nvidia (NVDA) Q2 2024 Earnings Call Transcript",
+    "description": "NVDA earnings call for the period ending June 30, 2023.",
+    "url": "https://www.fool.com/earnings/call-transcripts/2023/08/23/nvidia-nvda-q2-2024-earnings-call-transcript/",
+    "urlToImage": "https://g.foolcdn.com/editorial/images/1/featured-transcript-logo-template-2023-01-12.jpg",
+    "publishedAt": "2023-08-24T03:30:26Z",
+    "content": "Image source: The Motley Fool.\r\nNvidia (NVDA 3.17%)Q2 2024 Earnings CallAug 23, 2023, 5:00 p.m. ET\r\nContents:\r\n<ul><li>Prepared Remarks</li><li>Questions and Answers</li><li>Call Participants</li></u… [+53677 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Digiday"
+    },
+    "author": "Marty Swant",
+    "title": "WTF is California’s proposed ‘Delete Act’?",
+    "description": "An explainer about SB362, what the state bill entails, the privacy groups in favor of the proposal and why the ad industry wants to quash it.",
+    "url": "http://digiday.com/media-buying/wtf-is-californias-proposed-delete-act/",
+    "urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2023/05/privacy-computer-digiday.jpg",
+    "publishedAt": "2023-08-24T04:01:00Z",
+    "content": "The California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) have made the Golden State a pioneer in crafting modern data privacy legislation. Now, another bill is gaining mome… [+7907 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Creative Bloq"
+    },
+    "author": "Nathan Segal",
+    "title": "20th Century Fox logo: a history",
+    "description": "How the entertainment studio's branding has changed throughout the years.",
+    "url": "https://www.creativebloq.com/features/20th-century-fox-logo-history",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/ubZ7WBtURqKM3hMRppTF4A-1200-80.jpg",
+    "publishedAt": "2023-08-24T09:15:21Z",
+    "content": "Officially, 20th Century Fox no longer exists, having been rebranded to 20th Century Studios, but its logo history is still worth examining, especially as it's one of the best entertainment logos we … [+5118 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "La Vanguardia"
+    },
+    "author": "Fran Besora",
+    "title": "Apple ya habría filmado el vídeo de introducción de los iPhone 15 para su canal de YouTube",
+    "description": "Cuando Apple presenta una nueva generación de iPhone, lanza una serie de vídeos en su canal de YouTube para complementar su anuncio. Uno de ellos es un \"Tour Guiado\" donde se muestran las novedades más importantes de los nuevos dispositivos y a tan solo tres …",
+    "url": "https://www.lavanguardia.com/andro4all/apple/apple-habria-grabado-video-introduccion-iphone-15",
+    "urlToImage": "https://www.lavanguardia.com/andro4all/hero/2023/08/video-iphone-15.jpg?width=1200",
+    "publishedAt": "2023-08-24T06:59:21Z",
+    "content": "Apple ya habría grabado el \"Tour Guiado\" de los iPhone 15\r\nCuando Apple presenta una nueva generación de iPhone, lanza una serie de vídeos en su canal de YouTube para complementar su anuncio. Uno de … [+1904 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "La Vanguardia"
+    },
+    "author": "Christian Collado",
+    "title": "Google Chrome va a introducir uno de los cambios más esperados... solo en el iPhone",
+    "description": "Hubo una época en la que Google daba a los usuarios de Android la opción de mover la barra de búsqueda y de herramientas a la parte inferior de la pantalla, a través de una opción inicialmente llamada \"Chrome Duet\", que posteriormente pasó a ser denominada \"C…",
+    "url": "https://www.lavanguardia.com/andro4all/google-chrome/google-chrome-va-a-introducir-uno-de-los-cambios-mas-esperados-solo-en-el-iphone",
+    "urlToImage": "https://www.lavanguardia.com/andro4all/hero/2023/08/google-chrome.1692856418.7491.jpeg?width=1200",
+    "publishedAt": "2023-08-24T06:34:24Z",
+    "content": "El icono de Chrome, el navegador web más utilizado en todo el planeta\r\nHubo una época en la que Google daba a los usuarios de Android la opción de mover la barra de búsqueda y de herramientas a la pa… [+1714 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Nextpit.de"
+    },
+    "author": "Matthias \"MaTT\" Zellmer",
+    "title": "boAt Smart Ring präsentiert sich mit Fitness-Tracker-Eigenschaften",
+    "description": "Nach dem Oura und Ultrahuman Ring und Samsungs erste Vorstöße zum Galaxy Smart Ring, folgt mit dem noAt Smart Ring ein weiterer Player am Markt!",
+    "url": "https://www.nextpit.de/boat-smart-ring-praesentiert-sich-mit-fitness-tracker-eigenschaften",
+    "urlToImage": "https://fscl01.fonpit.de/userfiles/7233673/image/boat/boat-smart-ring_01.jpg",
+    "publishedAt": "2023-08-24T10:00:01Z",
+    "content": "© boAt\r\nEin weiterer Player betritt den Fitness-Markt und trägt vermutlich mit seinem nun vorgestellten boAt Smart Ring dazu bei, dass Fitness-Tracker nach und nach überflüssig werden. Wir schauen ei… [+2758 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Appbank.net"
+    },
+    "author": "岩佐",
+    "title": "「iPhone 15 Pro」の進化スゴい！スペックや新色、価格などのリーク・噂まとめ",
+    "description": "9月に登場する見込みの「iPhone 15 Pro」と現行モデル「iPhone 15 Pro」の違いを、Apple専門メディア「MacRumors」がこれまでのリークをもとにまとめています。 *Category:テクノロ […]",
+    "url": "https://www.appbank.net/2023/08/24/technology/2542056.php",
+    "urlToImage": "https://www.appbank.net/wp-content/uploads/2023/08/2023-0823-iPhone-15-Pro-thumb-1.jpeg",
+    "publishedAt": "2023-08-24T02:58:54Z",
+    "content": "9iPhone 15 ProiPhone 15 ProAppleMacRumors\r\n*Category:\r\n Technology *SourceMacRumors(1) ,9to5Mac(1) ,(2)\r\niPhone 14 ProiPhone 15 Pro\r\nMacRumorsiPhone 15 Pro21\r\niPhone 14 ProiPhone 14 Pro MaxiPhone 15 … [+267 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Nextpit.de"
+    },
+    "author": "Carsten Drees",
+    "title": "o2: Apple iPhone 14 Pro Max + AirPods Pro 2 mit massig Datenvolumen!",
+    "description": "Bei o2 könnt Ihr Euch gerade das Apple iPhone 14 Pro (Max) mit AirPods Pro 2 im \"o2 Mobile M Boost\"-Tarif mit fetten 50 GB Datenvolumen sichern.",
+    "url": "https://www.nextpit.de/o2-deal-apple-iphone-14-pro-max-airpods-pro-2-massig-datenvolumen",
+    "urlToImage": "https://fscl01.fonpit.de/userfiles/7687254/image/Apple_iPhone_14_Pro_Max/NextPit_Apple_iPhone_14_Pro_Max_Camera.jpg",
+    "publishedAt": "2023-08-24T08:00:01Z",
+    "content": "© nextpit\r\nDas Apple iPhone 14 Pro und das iPhone 14 Pro Max sind das Beste vom Besten, was Apple im Smartphone-Bereich zu bieten hat. Kann man so ein Gerät mit Tarif und den AirPods Pro 2 als Zugabe… [+5435 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Nextpit.de"
+    },
+    "author": "Jade Bryan",
+    "title": "Scheint das Samsung Galaxy S24 Ultra heller als das Apple iPhone 14 Pro?",
+    "description": "Das Samsung Galaxy S24 Ultra soll ein neues Display mit einer Helligkeit von über 2.200 Nits haben, mehr als das Panel vom  Apple iPhone 14 Pro.",
+    "url": "https://www.nextpit.de/samsung-galaxy-s24-ultra-mit-hellerem-display-als-das-iphone-14-pro",
+    "urlToImage": "https://fscl01.fonpit.de/userfiles/7446224/image/samsung-galaxy-s23-series-cmd7/NextPit-samsung-galaxy-s23-ultra-hero-cmd7.jpg",
+    "publishedAt": "2023-08-24T05:00:00Z",
+    "content": "© nextpit\r\nSamsungs Galaxy S24 Ultra entwickelt sich in Bezug auf seine Hardware zu einem großen Upgrade des Galaxy S23 Ultra (Test). Zunächst wurde berichtet, dass es ein robustes Titangehäuse und e… [+2944 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Nextpit.de"
+    },
+    "author": "Jade Bryan",
+    "title": "Samsung Galaxy S23 soll in der Fan-Edition kommenden Monat erscheinen!",
+    "description": "Samsung könnte sein Budget-Flaggschiff, das Galaxy S23 FE, bereits im kommenden Monat September veröffentlichen. Hier die bekannten technischen Daten!",
+    "url": "https://www.nextpit.de/samsung-galaxy-s23-fe-soll-im-september-auf-den-markt-kommen",
+    "urlToImage": "https://fscl01.fonpit.de/userfiles/7446224/image/samsung-galaxy-s23-series-cmd7/NextPit-samsung-galaxy-s23-back-cmd7.jpg",
+    "publishedAt": "2023-08-24T07:00:01Z",
+    "content": "© nextpit\r\nNach der Samsung-Vorstellung der faltbaren Geräte Ende Juli wird nun vermutet, dass das Unternehmen seinen Fokus auf die Einführung des Samsung Galaxy S23 FE verlagert. Dazu passt ein neue… [+2961 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "DIE WELT"
+    },
+    "author": "Berthold Seewald",
+    "title": "„Man zerfleischt sich gegenseitig, und die Mutter schont nicht den Säugling“",
+    "description": "Für die Zeitgenossen war die Plünderung Roms durch Alarich und seine Goten im August 410 eine epochale Katastrophe. Doch auch die Eroberer hatten ihre Probleme. Ihre Versorgungslage war prekär, sie waren Flüchtlinge, von Hunger und Not getrieben.",
+    "url": "https://www.welt.de/geschichte/article247059960/Alarich-erobert-Rom-410-Man-zerfleischt-sich-gegenseitig.html",
+    "urlToImage": "https://img.welt.de/img/geschichte/mobile247059954/1781351107-ci16x9-w1200/The-Sack-of-Rome-by-Visigoths-410-1890-Artist-Sylvestre-Joseph-Noxebl-184-2.jpg",
+    "publishedAt": "2023-08-24T05:22:45Z",
+    "content": "Der weströmische Kaiser Flavius Honorius (384423) soll einen Schock erlitten haben, als man ihm die Nachricht von der Katastrophe überbrachte: Am 24. August 410 hatten die Westgoten unter ihrem König… [+6538 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Numerama"
+    },
+    "author": "Nicolas Lellouche",
+    "title": "Tout comprendre au DSA : la loi européenne qui encadre les géants du web",
+    "description": "Après avoir transformé Internet avec le RGPD, l'Union européenne frappe encore plus fort avec le Digital Services Act, sa règlementation conçue pour encadrer les Google, Facebook, Amazon, Microsoft, Apple ou TikTok. Le DSA fixe une multitude de nouvelles règl…",
+    "url": "https://www.numerama.com/tech/1480552-tout-comprendre-au-dsa-la-loi-europeenne-qui-encadre-les-geants-du-web.html",
+    "urlToImage": "https://www.numerama.com/wp-content/uploads/2023/08/dsa-minia-v1.jpg",
+    "publishedAt": "2023-08-24T06:09:00Z",
+    "content": "Après avoir transformé Internet avec le RGPD, lUnion européenne frappe encore plus fort avec le Digital Services Act, sa règlementation conçue pour encadrer les Google, Facebook, Amazon, Microsoft, A… [+11526 chars]"
+    },
+    {
+   "source": {
+    "id": "focus",
+    "name": "Focus"
+    },
+    "author": "Von FOCUS-online-Redakteur Markus Voss",
+    "title": "Jensen Huang wichtiger als Wladimir Putin - Racheakt in Russland – doch die Börse feiert lieber Nvidia",
+    "description": "Der Abschuss des Jets von Jewgeni Prigoschin lässt die Kapitalmärkte erstaunlich kalt. Die Börsen haben sich schon länger von aktuellen Russland-Meldungen abgewandt - und feiern lieber einen neuen Tech-Star.Von FOCUS-online-Redakteur Markus Voss",
+    "url": "https://www.focus.de/finanzen/boerse/rene_will_rendite/jensen-huang-wichtiger-als-wladimir-putin-racheakt-in-russland-doch-die-boerse-feiert-lieber-nvidia_id_202692000.html",
+    "urlToImage": "https://p6.focus.de/img/fotos/id_202693343/combo-putin-nvidia-kopie.jpg?im=Crop%3D%2877%2C0%2C831%2C415%29%3BResize%3D%281200%2C627%29&impolicy=perceptual&quality=mediumHigh&hash=a09aa200aefb2a1b90f9fd85ca1c22e4b8eac0272a901ee79928d08a0482a00d",
+    "publishedAt": "2023-08-24T09:30:07Z",
+    "content": "Der Abschuss des Jets von Jewgeni Prigoschin lässt die Kapitalmärkte erstaunlich kalt. Die Börsen haben sich schon länger von aktuellen Russland-Meldungen abgewandt - und feiern lieber einen neuen Te… [+4795 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Techbang.com"
+    },
+    "author": "KKJ",
+    "title": "iPhone 15 Pro 鋁板模型機曝光，拿在手上感覺如何？",
+    "description": "蘋果 iPhone 15 Pro 手機鋁板模型曝光，據稱邊框尺寸將縮小日前中國的爆料者 i冰宇宙曬出三張照片，據稱為蘋果 iPhone 15 Pro 手機鋁板模型機，接近上手效果。\n\n從圖中可以看到，iPhone 15 Pro 的前置鏡頭依舊採用嘆號開孔，最終將呈現為動態島外觀，螢幕邊框目測達到四等邊的效果，下巴的寬度控制不錯。底部呈現了 USB-C 介面，這再次驗證了此前的傳聞，lightning 介面將陸續退出歷史舞台。\n ▲ 圖源: i冰宇宙\n彭博社記者 Mark Gurman 先前稱蘋果將把 iPhone…",
+    "url": "https://www.techbang.com/posts/108921-apples-iphone-15-pro-mobile-phone-aluminum-plate-model",
+    "urlToImage": "https://cdn0.techbang.com/system/excerpt_images/108921/original/90337738b81fea32967a46d6cf62d6d8.jpg?1692691018",
+    "publishedAt": "2023-08-24T06:15:00Z",
+    "content": "i iPhone 15 Pro \r\niPhone 15 Pro USB-C lightning \r\n: i\r\n Mark Gurman  iPhone 15 Pro iPhone 15 Pro Max 2.2 1.5 \r\n iPhone LIPO Apple Watch Gurman LIPO iPhone iPad\r\n: i\r\n iPhone  9 12 9 13"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Techbang.com"
+    },
+    "author": "ifanr",
+    "title": "Beats Studio Pro評測：聆聽體驗升級、價格比AirPods Max 便宜5,500元更實惠的選擇",
+    "description": "Beats Studio Pro評測：大有改觀、小有遺憾\n早期，Beats在品牌初期憑藉重低音打開了市場，同時也開始以潮流符號的形式伴隨著電子音樂出現。比如由LMFAO和GoonRock製作發行的Party Rock Anthem中，就在MV中給Beats的耳機安排了不少戲份。\n\n文章目錄\r\n\n<ul>\n<li>1. 從重低音的「專科生」到什麼都能聽的「模範生」</li>\n<li>2. 三種模式、兩個平台、一致體驗</li>\n<li>3. 優秀背後還留有遺憾</li>\n<li>4. 價格</li>\n</ul>\n\n…",
+    "url": "https://www.techbang.com/posts/108151-beats-studio-pro-review-big-improvements-small-regrets",
+    "urlToImage": "https://cdn2.techbang.com/system/excerpt_images/108151/original/c41c1256d065241215834d6483dd9774.jpg?1689908537",
+    "publishedAt": "2023-08-24T06:30:00Z",
+    "content": "BeatsLMFAOGoonRockParty Rock AnthemMVBeats\r\n2014AppleBeatsBeatsBeats\r\nBeats Studio Pro\r\nBeatsBeats Studio Pro\r\nBeats Studio Pro\r\nApple MusicBeats Studio Pro40mmBeats\r\nBeats Studio Pro\r\nBeats Studio P… [+814 chars]"
+    },
+    {
+   "source": {
+    "id": "marca",
+    "name": "Marca"
+    },
+    "author": "PABLO VILLA",
+    "title": "La intrahistoria del último escándalo de Rubiales en la RFEF",
+    "description": "El fútbol español vive un nuevo capítulo negro durante las últimas horas. Cuando todo parecía destinado a que únicamente se hablaría de la proeza que las chicas consiguieron en Sid",
+    "url": "https://www.marca.com/radio/marca-daily/2023/08/24/64e64c94e2704ee44c8b45d5.html",
+    "urlToImage": "http://estaticos.marca.sta.internet.int/assets/desktop/sta/img/logo-marca.png",
+    "publishedAt": "2023-08-24T04:40:15Z",
+    "content": "El fútbol español vive un nuevo capítulo negro durante las últimas horas. Cuando todo parecía destinado a que únicamente se hablaría de la proeza que las chicas consiguieron en Sidney, la celebración… [+891 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Ascii.jp"
+    },
+    "author": "ASCII",
+    "title": "アップル新型「iPhone SE」USB-C搭載か",
+    "description": "アップル「iPhone SE（第4世代）」はUSB-Cを搭載することになりそうだ。著名リーカーがX（Twitter）で伝えた。",
+    "url": "https://weekly.ascii.jp/elem/000/004/151/4151765/",
+    "urlToImage": "https://ascii.jp/img/2023/08/24/3591368/l/57639ca47d283488.jpg",
+    "publishedAt": "2023-08-24T10:00:00Z",
+    "content": "iPhone SE3 Apple\r\niPhone SE4LightningUSB-CUnknownz21XTwitter813\r\niPhone SE4iPhone 14Face IDUSB-C\r\nSE1SE\r\nMore about the SE 4 - planned features and design changes:\r\n- Design based on iPhone 14- Face … [+89 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Getnews.jp"
+    },
+    "author": "Billboard JAPAN",
+    "title": "XG、サマーソング「NEW DANCE」MVテーマは“探索（Xplore）”　Apple Music「Up Next」グローバル版に選出",
+    "description": "XG、サマーソング「NEW DANCE」MVテーマは“探索（Xplore）”　Apple Music「Up Next」グローバル版に選出",
+    "url": "https://getnews.jp/archives/3435654",
+    "urlToImage": "https://www.billboard-japan.com/common/sys/img/news/00000129/129057/image.jpg",
+    "publishedAt": "2023-08-24T04:55:00Z",
+    "content": "XGNEW DANCE\r\nNEW DANCE9271stNEW DNA3\r\nMV1GRL GVNG2TGIFXGXploreXG\r\nXGApple MusicUp NextApple MusicBrooke ReeseUp NextXG\r\nYouTubeXG – NEW DANCE (Official Music Video) https://youtu.be/cQTo9O85Zro\r\nNEW … [+284 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Livedoor.jp"
+    },
+    "author": "news23vip",
+    "title": "ワイヤレスイヤホン離れが進んでるらしいwww",
+    "description": "1 名前：名無しさん＠おーぷん[] 投稿日：23/08/24(木) 01:03:30 ID:G3qi\n\n\n1万人アンケートの結果らしい\n\n2 名前：名無しさん＠おーぷん[] 投稿日：23/08/24(木) 01:04:02 ID:G3qi\n正直充電ダルいし、音質良くないし、混線で途切れるし意外と良くないよな\n\n3 名前：名無しさ...",
+    "url": "http://blog.livedoor.jp/news23vip/archives/6063503.html",
+    "urlToImage": "https://livedoor.blogimg.jp/news23vip/imgs/b/d/bd793c80-s.jpg",
+    "publishedAt": "2023-08-24T06:00:19Z",
+    "content": "5 [] 23/08/24() 01:04:45 ID:G3qi6 [] 23/08/24() 01:05:04 ID:Xdq0\r\n8 [] 23/08/24() 01:05:18 ID:OE98\r\n9 [] 23/08/24() 01:05:39 ID:SFkEmac&amp;iPhoneAirPods\r\n18 [] 23/08/24() 01:08:14 ID:SWOWAppleApple\r… [+1178 chars]"
+    },
+    {
+   "source": {
+    "id": "techradar",
+    "name": "TechRadar"
+    },
+    "author": "axel.metz@futurenet.com (Axel Metz)",
+    "title": "Oppo Reno 10 5G: Cameras, display, battery and everything you need to know",
+    "description": "Oppo has officially unveiled the Oppo Reno 10 5G in Western markets – here's everything we know about the device.",
+    "url": "https://www.techradar.com/phones/oppo-phones/oppo-reno-10-5g",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/ayqRrCC54uaPpim9sEkwP8-1200-80.jpg",
+    "publishedAt": "2023-08-24T08:00:00Z",
+    "content": "Oppo’s Reno 10 smartphone series, which comprises the Oppo Reno 10 5G, Oppo Reno 10 Pro and Oppo Reno 10 Pro Plus, has officially launched in various regions across the world, but only the first of t… [+5114 chars]"
+    },
+    {
+   "source": {
+    "id": "handelsblatt",
+    "name": "Handelsblatt"
+    },
+    "author": "Peter Köhler, Frank Wiebe",
+    "title": "Tech-Aktien: Darum sollten sich Apple-Anleger an Nokia und Blackberry erinnern",
+    "description": "Wer Apple, Amazon oder Alphabet im Depot hat, sollte sich einst gefeierte Tech-Werte anschauen. Wie sich stabile und gefährdete Aktien unterscheiden lassen.",
+    "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/tech-aktien-darum-sollten-sich-apple-anleger-an-nokia-und-blackberry-erinnern/29342664.html",
+    "urlToImage": "https://www.handelsblatt.com/images/blackberry-smartphones-mit-tastatur/29346736/2-format2003.jpg",
+    "publishedAt": "2023-08-24T05:57:58Z",
+    "content": "Blackberry-Smartphones mit TastaturDamals disruptiv, heute veraltet - Veränderungen im Kernmarkt treffen Unternehmen oft überraschend. \r\n(Foto: AP)\r\nFrankfurt Beinahe übermächtig erscheinen die große… [+1228 chars]"
+    },
+    {
+   "source": {
+    "id": "cbc-news",
+    "name": "CBC News"
+    },
+    "author": "Taneal Lockstadt",
+    "title": "Happily ever after, but hold the prince? Disney — and its actors — walk a tricky line with remakes",
+    "description": "In 1937, Walt Disney’s Snow White sang “Someday, my prince will come.” Rachel Zegler, the actor set to play the role in a live-action remake, noted that her version wouldn’t be waiting for a prince. Her comments touched off a storm of controversy online and s…",
+    "url": "https://www.cbc.ca/news/entertainment/disney-princess-remakes-1.6945540",
+    "urlToImage": "https://i.cbc.ca/1.6945550.1692825678!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/snow-white-rachel-zegler-composite.jpg",
+    "publishedAt": "2023-08-24T08:00:00Z",
+    "content": "In 1937, Walt Disney's Snow White sang \"Someday my prince will come.\" Recently, the actor set to play the role in a modern remake noted that her version wouldn't be waiting for a prince, touching off… [+7886 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Forbes"
+    },
+    "author": "Maury Brown, Senior Contributor, \n Maury Brown, Senior Contributor\n https://www.forbes.com/sites/sportsmoney/people/bizballmaury/",
+    "title": "The Oakland A’s Owner Tries $40 Million Accounting Trick On Public",
+    "description": "A's owner John Fisher said the club would lose $40 million in 2023. Here's a breakdown of how Fisher will see a handsome profit, instead.",
+    "url": "https://www.forbes.com/sites/maurybrown/2023/08/23/the-oakland-as-owner-tries-40-million-accounting-trick-on-public/",
+    "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/64e6d3103fc2d43ab3d8ae1f/0x0.jpg?format=jpg&width=1200",
+    "publishedAt": "2023-08-24T03:51:21Z",
+    "content": "Fans in Oakland staged a reverse boycott in an attempt to voice their anger over A's owner John ... [+] Fisher moving the club to Las Vegas. (Jane Tyska/Digital First Media/East Bay Times via Getty I… [+4731 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Hdblog.it"
+    },
+    "author": "HDblog.it",
+    "title": "Apple Silicon M1 e M2, novità per il gaming con i driver Linux certificati OpenGL ES 3.1",
+    "description": "Il gruppo Asashi Linux, che si occupa di rendere Linux pienamente compatibile con i Mac delle ultime due generazioni, ha pubblicato i primi driver certificati per le GPU dei SoC Apple Silicon M1 e M2.",
+    "url": "https://www.hdblog.it/apple/articoli/n572853/apple-mac-chip-m1-m2-driver-linux/",
+    "urlToImage": "https://hd2.tudocdn.net/1112272?w=1920",
+    "publishedAt": "2023-08-24T09:15:00Z",
+    "content": "Con l'arrivo dei driver AGX Gallium3D conformi aglistandard OpenGL ES 3.1 (OpenGL per Embedded Systems), il progetto Asashi Linux compie un importante passo in avanti in ottica gaming. Il progetto co… [+2344 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Forbes"
+    },
+    "author": "William Pesek, Senior Contributor, \n William Pesek, Senior Contributor\n https://www.forbes.com/sites/williampesek/",
+    "title": "SoftBank’s $60 Billion-Plus IPO Challenges Masayoshi Son’s ‘Crazy’ Talk",
+    "description": "It’s not clear what Masayoshi Son’s real investment vision is these days. That’s a question that no one particular IPO can answer for SoftBank or its investors.",
+    "url": "https://www.forbes.com/sites/williampesek/2023/08/23/softbanks-60-billion-plus-ipo-challenges-masayoshi-sons-crazy-talk/",
+    "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/64e6c833bfb3cc1f5b4af6bb/0x0.jpg?format=jpg&crop=4530,2550,x300,y181,safe&width=1200",
+    "publishedAt": "2023-08-24T03:40:56Z",
+    "content": "Masayoshi Son's SoftBank is attempting to pull off a successful IPO of chip designer Arm at a valuation of more than $60 billion.\r\nAlessandro Di Ciommo/NurPhoto via Getty Images\r\nSoftBank founder Mas… [+4726 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Antyweb.pl"
+    },
+    "author": "Piotr Kurek",
+    "title": "Będzie rewolucja czy to marketing Apple? Wszyscy są zachwyceni Apple Vision Pro!",
+    "description": "Do premiery Apple Vision Pro jeszcze daleko, ale już pierwsi deweloperzy mają możliwość sprawdzenia, jak gogle rozszerzonej rzeczywistości sprawdzają się w rzeczywistości. I najwyraźniej są nimi zachwyceni.\n \n The post Będzie rewolucja czy to marketing Apple?…",
+    "url": "https://antyweb.pl/wszyscy-sa-zachwyceni-apple-vision-pro",
+    "urlToImage": "https://antyweb.pl/img/1250/550/fit/wp-content/uploads/2023/08/zzwbphtv4f/vision.jpg",
+    "publishedAt": "2023-08-24T09:25:22Z",
+    "content": "Podczas tegorocznej konferencji WWDC, Apple zaprezentowao swoje najnowsze urzdzenie - gogle rozszerzonej rzeczywistoci o nazwie Apple Vision Pro. Mimo e urzdzenie to bdzie dostpne do zakupu dopiero w… [+3391 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Antyweb.pl"
+    },
+    "author": "Błażej Wojciechowski",
+    "title": "Google Chrome ze świetną nowością! Czekali na nią wszyscy, ale nie każdy skorzysta",
+    "description": "Google Chrome postanowiło wyjść na przeciw użytkownikom i umożliwić przeniesienie paska adresu w Google Chrome ku dolnej części ekranu. No nareszcie!\n \n The post Google Chrome ze świetną nowością! Czekali na nią wszyscy, ale nie każdy skorzysta appeared first…",
+    "url": "https://antyweb.pl/google-chrome-ze-swietna-nowoscia-czekali-na-nia-wszyscy-ale-nie-kazdy-skorzysta",
+    "urlToImage": "https://antyweb.pl/img/1250/550/fit/wp-content/uploads/2022/06/vwdnqbvvax/safari-chrome-edge.jpg",
+    "publishedAt": "2023-08-24T06:20:08Z",
+    "content": "Kiedy Safari kilka lat temu zaoferowao pasek adresu w dolnej czci ekranu, uytkownicy jednoznacznie okrzyknli to rewolucyjn zmian. I przyjli j z otwartymi ramionami. Od samego pocztku jednak pojawiao … [+2164 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Iphoneitalia.com"
+    },
+    "author": "Giuseppe Migliorino",
+    "title": "Vision Pro, le reazioni degli sviluppatori sono positive",
+    "description": "Come hanno reagito i primi sviluppatori che hanno provato Vision Pro?\nLink all'articolo originale: Vision Pro, le reazioni degli sviluppatori sono positive",
+    "url": "https://www.iphoneitalia.com/812718/opinioni-sviluppatori-vision-pro",
+    "urlToImage": "https://static.iphoneitalia.com/wp-content/uploads/2023/08/vision-pro-lab.jpg",
+    "publishedAt": "2023-08-24T06:57:10Z",
+    "content": "Il mese scorso, Apple ha iniziato a ospitarelaboratori di sviluppo per app Vision Pro a Cupertino, Londra, Monaco, Shanghai, Singapore e Tokyo, consentendo agli sviluppatori di provare in prima perso… [+1738 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Iphoneitalia.com"
+    },
+    "author": "Giuseppe Migliorino",
+    "title": "iPhone 15, i cavi USB-C inclusi in confezione avranno velocità limitate",
+    "description": "Arrivano nuove notizie sulla velocità di trasferimento dati dei cavi USB-C inclusi nelle confezioni degli iPhone 15. \nLink all'articolo originale: iPhone 15, i cavi USB-C inclusi in confezione avranno velocità limitate",
+    "url": "https://www.iphoneitalia.com/812715/velocita-cavo-usb-c-iphone-15-confezione",
+    "urlToImage": "https://static.iphoneitalia.com/wp-content/uploads/2023/02/iphone-15-pro-max.jpeg",
+    "publishedAt": "2023-08-24T06:49:18Z",
+    "content": "I cavi USB-C inclusi nella confezione degli iPhone 15 saranno colorati e più lunghi, ma la loro velocità di trasferimento dati sarà limitata a USB 2.0.\r\nVuoi per gli obblighi imposti dall’UE, vuoi pe… [+1258 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Biztoc.com"
+    },
+    "author": "theweek.com",
+    "title": "TV to watch in September, from 'The Changeling' to 'American Horror Story: Delicate'",
+    "description": "Coming up in the world of television: Adaptations of bestselling books, spin-offs of beloved franchises and a major acting role for Kim Kardashian. These are the most anticipated new and returning shows in September 2023: 'The Changeling' (Sept. 8) Not to be …",
+    "url": "https://biztoc.com/x/5862859f3bceac4d",
+    "urlToImage": "https://c.biztoc.com/p/5862859f3bceac4d/s.webp",
+    "publishedAt": "2023-08-24T10:08:11Z",
+    "content": "Coming up in the world of television: Adaptations of bestselling books, spin-offs of beloved franchises and a major acting role for Kim Kardashian. These are the most anticipated new and returning sh… [+313 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Netafull.net"
+    },
+    "author": "コグレマサト",
+    "title": "【アクセサリ整備済製品】iPadアクセサリ・ディスプレイ・AirPods【2023年8月24日】",
+    "description": "Apple公式サイトの「アクセサリ整備済製品」の情報です。 Appleの整備済み品は問題があって返品された商品などを整備し、テスト後認定されたものです。1年間の特別保証が付いています。 最新の在庫情報は「Apple整備済...\n投稿 【アクセサリ整備済製品】iPadアクセサリ・ディスプレイ・AirPods【2023年8月24日】 は ネタフル に最初に表示されました。",
+    "url": "https://netafull.net/apple-refurbished/0135775.html",
+    "urlToImage": "https://netafull.net/wp-content/uploads/2023/08/apple-refurbished-acc.jpg",
+    "publishedAt": "2023-08-24T04:00:00Z",
+    "content": "Apple\r\nApple1\r\nApple\r\nAmazonApple\r\nApple Pencil2[]\r\n15,380\r\nMagSafeAirPods3[]\r\n23,800\r\nApple Studio Display – []\r\n227,800\r\nApple Studio Display – Nano-texture []\r\n267,800\r\nApple"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Netafull.net"
+    },
+    "author": "コグレマサト",
+    "title": "【iPad整備済製品】iPad・iPad Air・11インチiPad Pro・12.9インチiPad Pro・iPad mini 6・iPadアクセサリ【2023年8月24日】",
+    "description": "Apple公式サイトの「iPad整備済製品」の情報です。 Appleの整備済み品は問題があって返品された商品などを整備し、テスト後認定されたものです。1年間の特別保証が付いています。 最新の在庫情報は「Apple整備済製...\n投稿 【iPad整備済製品】iPad・iPad Air・11インチiPad Pro・12.9インチiPad Pro・iPad mini 6・iPadアクセサリ【2023年8月24日】 は ネタフル に最初に表示されました。",
+    "url": "https://netafull.net/apple-refurbished/0135780.html",
+    "urlToImage": "https://netafull.net/wp-content/uploads/2022/12/apple-refurbished-ipad.jpg",
+    "publishedAt": "2023-08-24T07:30:00Z",
+    "content": "AppleiPad\r\nApple1\r\nApple\r\nAmazonApple\r\nApple Pencil2[]\r\n15,380\r\niPad Wi-Fi 64GB – 9[]\r\n41,800\r\niPad Wi-Fi 128GB – 8[]\r\n50,800\r\niPad Wi-Fi 128GB – 8[]\r\n50,800\r\niPad Wi-Fi 128GB – 8[]\r\n50,800\r\niPad Wi-… [+3170 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Skift"
+    },
+    "author": "Skift",
+    "title": "Maui Tourism Grapples with Uncertainty Amidst Wildfire Devastation",
+    "description": "Today's edition of Skift's daily podcast looks closer at Maui's hotel scene, hotel development in China, and Wynn's UAE casino. -Rashaad Jorden",
+    "url": "https://skift.com/2023/08/24/maui-tourism-grapples-with-uncertainty-amidst-wildfire-devastation/",
+    "urlToImage": "https://skift.com/wp-content/uploads/2021/12/9255B8E8-615F-4148-B568-AD250F91DEF2.jpeg",
+    "publishedAt": "2023-08-24T09:51:32Z",
+    "content": "Good morning from Skift. Its Thursday, August 24. Heres what you need to know about the business of travel today.\r\nApple Podcasts | Spotify | Overcast | Google Podcasts | Amazon Podcasts\r\nMauis touri… [+2382 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Cult of Mac"
+    },
+    "author": "Rajesh Pandey",
+    "title": "Apple backs California’s Right to Repair Act",
+    "description": "After years of lobbying against the Right to Repair Act, Apple has lends its support to the bill in California.\n(via Cult of Mac - Tech and culture through an Apple lens)",
+    "url": "https://www.cultofmac.com/828188/apple-backs-californias-right-to-repair-act/",
+    "urlToImage": "https://www.cultofmac.com/wp-content/uploads/2022/12/Apple-EU-Self-Service-repair-iPhone.jpg",
+    "publishedAt": "2023-08-24T08:54:59Z",
+    "content": "In a major U-turn, Apple has endorsed the Right to Repair Bill in California. This surprising move comes after years of the company fighting and delaying the Repair bill in various US states.\r\nApple … [+1923 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Spidersweb.pl"
+    },
+    "author": "Oliwier Nytko",
+    "title": "iPhone pomaga psiakom. Nie uwierzysz, co można zrobić z jego aparatem",
+    "description": "Jak iPhone może pomóc w poprawieniu życia? Jedni powiedzą, że możliwość przeglądania Instagrama w najlepszej jakości ratuje im dzień. A inni wskażą na to, że iPhone może pomóc w stworzeniu protezy dla… zwierząt.",
+    "url": "https://spidersweb.pl/2023/08/apple-ihone-protezy-dla-psow.html",
+    "urlToImage": "https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2023/08/apple-proteza.jpg",
+    "publishedAt": "2023-08-24T04:14:00Z",
+    "content": "Niby to tylko reklama Apple, ale przekazuje wrcz wzruszajc histori tego, jak technologia moe wspiera zwierzta. Wykorzystanie zaawansowanych narzdzi, takich jak skaner LiDAR, które mamy w kieszeni, do… [+157 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Daily Beast"
+    },
+    "author": "Steven John",
+    "title": "The Louvre x CASETiFY Collection Turns Your Phone Into a Piece of Fine Art",
+    "description": "Scouted/The Daily Beast/Casetify.\r\nScouted selects products independently. If you purchase something from our posts, we may earn a small commission.At this point, most people have accepted that their phones, earbuds, and other tech accessories are more like e…",
+    "url": "https://www.thedailybeast.com/the-louvre-x-casetify-collection",
+    "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1692837421/Casetify_x_Lourve_collection_2023_l5z527",
+    "publishedAt": "2023-08-24T00:39:02Z",
+    "content": "Scouted selects products independently. If you purchase something from our posts, we may earn a small commission.\r\nAt this point, most people have accepted that their phones, earbuds, and other tech … [+1588 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Daily Beast"
+    },
+    "author": "Kyndall Cunningham",
+    "title": "Why Are Controversial Country Songs Dominating the Charts?",
+    "description": "Photo Illustration by Thomas Levinson/The Daily Beast/Getty\r\nJust a few weeks ago, it seemed like the internet’s most popular song was a screwy, satirical ode to ’90s Eurodance. (R.I.P. song of the summer contender “Planet of the Bass.”)Now, the No. 1 entry a…",
+    "url": "https://www.thedailybeast.com/why-rich-men-north-of-richmond-and-controversial-country-songs-are-dominating-charts",
+    "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1692836152/230823-oliver-anthony-tease_iquebz",
+    "publishedAt": "2023-08-24T08:48:54Z",
+    "content": "Just a few weeks ago, it seemed like the internets most popular song was a screwy, satirical ode to 90s Eurodance. (R.I.P. song of the summer contender Planet of the Bass.)\r\nNow, the No. 1 entry acro… [+6868 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Lacriaturacreativa.com"
+    },
+    "author": "Hugo Gómez",
+    "title": "Perros con prótesis protagonizan el nuevo anuncio de Apple",
+    "description": "El spot sigue el trabajo de 3DPets, una empresa que utiliza el scanner LiDAR y la cámara del iPhone 14 Pro para crear prótesis para perros\nLa entrada Perros con prótesis protagonizan el nuevo anuncio de Apple se publicó primero en La Criatura Creativa.",
+    "url": "https://lacriaturacreativa.com/2023/08/24/perros-con-protesis-protagonizan-el-nuevo-anuncio-de-apple/",
+    "urlToImage": "https://lacriaturacreativa.com/wp-content/uploads/2023/08/apple-the-invincibles-00.jpg",
+    "publishedAt": "2023-08-24T06:47:21Z",
+    "content": "Eso es así: Internet es para ver vídeos de gatitos y perritos. Conscientes del éxito que tienen las mascotas en la red, son muchas las marcas que se han animado a convertir a los animales en protagon… [+793 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Elespanol.com"
+    },
+    "author": "C�sar Rebolledo",
+    "title": "FREE FIRE | Códigos de hoy miércoles 24 de agosto de 2023 - Recompensas gratis",
+    "description": "<!--cache-->Estos son todos los códigos gratis de Garena Free Fire que podrás canjear hoy, jueves 24 de agosto de 2023. Consigue recompensas como skins, diamantes y mucho más.<!--aa--->El éxito para móviles Android e iOS, Garena Free Fire, ha recibido nuevos …",
+    "url": "https://vandal.elespanol.com/noticia/1350764788/free-fire-codigos-de-hoy-miercoles-24-de-agosto-de-2023-recompensas-gratis/",
+    "urlToImage": "https://media.vandal.net/i/ivandal/1200x630/8-2023/20238248425577_1.jpg",
+    "publishedAt": "2023-08-24T06:44:00Z",
+    "content": "El xito para mviles Android e iOS, Garena Free Fire, ha recibido nuevos cdigos diarios para hoy jueves 24 de agosto de 2023. Los jugadores pueden canjear estos cdigos para recibir recompensas variada… [+2167 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Taisy0.com"
+    },
+    "author": "taisy0",
+    "title": "Appleの整備済み商品情報 2023/8/24",
+    "description": "本日、Appleのお得な整備済み製品が多数追加されていますので、良かったらどうぞ。 整備済み商品とは初期不良などがあった商品をAppleが修理し、販売している商品で1年間の保証付きなので新品と変わらず、安く購入でき、現在 ...",
+    "url": "https://taisy0.com/2023/08/24/175752.html",
+    "urlToImage": "https://taisy0.com/wp-content/uploads/2022/03/applestoreicon2022.jpg",
+    "publishedAt": "2023-08-24T02:51:17Z",
+    "content": "Apple\r\nApple1()\r\nMacBook Pro 13 M2 8CPU10GPU152,800MacBook Pro 13 M2 8CPU10GPU176,800MacBook Pro 14 M1 Max 12CPU32GPU436,800MacBook Pro 14 M1 Pro 10CPU16GPU539,800MacBook Pro 14 M1 Max 10CPU24GPU601,… [+2082 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Macitynet.it"
+    },
+    "author": "Mauro Notarianni",
+    "title": "Apple ora appoggia il diritto alle riparazioni fai da te",
+    "description": "Apple ha deciso di sostenere il disegno di legge californiano a supporto del movimento \"Right to Repair\" che obbliga i produttori a creare dispositivi che siano riparabili dall'utente e anche dai centri non autorizzati.\n- su macitynet.it Apple ora appoggia il…",
+    "url": "https://www.macitynet.it/?p=1245312",
+    "urlToImage": "https://www.macitynet.it/wp-content/uploads/2022/12/Apple-Self-Service-Repair-italia-1.jpg",
+    "publishedAt": "2023-08-24T06:29:44Z",
+    "content": "Apple ha deciso di sostenere il disegno di legge californiano noto come Right to Repair, a supporto del movimento che obbliga i produttori a creare dispositivi che siano riparabili dall’utente e anch… [+2377 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Macitynet.it"
+    },
+    "author": "Mauro Notarianni",
+    "title": "Apple TV Plus, il trailer di Flora and Son",
+    "description": "Apple ha pubblicato il trailer di \"Flora and Son\", film per il quale ha lottato con Amazon per ottenere i diritti. Cn Eve Hewson, Joseph Gordon-Levitt e Jack Reynor, diretto da John Carney.\n- su macitynet.it Apple TV Plus, il trailer di Flora and Son",
+    "url": "https://www.macitynet.it/flora-and-son/",
+    "urlToImage": "https://www.macitynet.it/wp-content/uploads/2023/08/FloraAndSon.jpg",
+    "publishedAt": "2023-08-24T05:29:06Z",
+    "content": "Apple ha pubblicato il trailer di “Flora and Son“, film commedia con Eve Hewson, Joseph Gordon-Levitt e Jack Reynor, diretto da John Carney.\r\nNel film, Flora è una madre single che fatica a gestire i… [+1287 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Hwupgrade.it"
+    },
+    "author": null,
+    "title": "Ashai Linux, arrivano i driver GPU conformi a OpenGL ES 3.1",
+    "description": "Il progetto che vuole portare Linux sui Mac con processore Apple Silicon raggiunge un traguardo importante con la certificazione dei primi driver GPU conformi agli standard di settore",
+    "url": "https://www.hwupgrade.it/news/apple/ashai-linux-arrivano-i-driver-gpu-conformi-a-opengl-es-31_119411.html",
+    "urlToImage": "https://www.hwupgrade.it/i/n/asahi-linux-logo_720.jpg",
+    "publishedAt": "2023-08-24T06:01:01Z",
+    "content": "Il\r\n progetto open source Asahiper portare Linux sui chip Apple\r\n Silicon ha compiuto un importante passo in avanti con il rilascio\r\n del primo driver GPU pienamente conforme agli standard del settor… [+1543 chars]"
+    },
+    {
+   "source": {
+    "id": "bbc-news",
+    "name": "BBC News"
+    },
+    "author": "https://www.facebook.com/bbcnews",
+    "title": "Nvidia: artificial intelligence chip giant sees sales more than double",
+    "description": "The California-based company dominates the market for chips used in artificial intelligence systems.",
+    "url": "https://www.bbc.co.uk/news/business-66601716",
+    "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/13EFA/production/_130885618_gettyimages-1258278958.jpg",
+    "publishedAt": "2023-08-24T03:19:33Z",
+    "content": "Technology giant Nvidia says its sales have hit a record after more than doubling as demand for its artificial intelligence (AI) chips soars.\r\nThe company says revenue jumped to above $13.5bn (£10.6b… [+1827 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Sspai.com"
+    },
+    "author": "沉默的冬青",
+    "title": "用词句堆出来的用户体验：谈 app 文案的细节斟酌",
+    "description": "一句话使人跳，一句话使人笑。好的内容设计应当是包容的，与人人都有关，那更加包容的 UX 文案究竟该如何设计？查看全文",
+    "url": "https://sspai.com/post/82145",
+    "urlToImage": "https://cdn.sspai.com/2023/8/24/article/4530c1a9-5288-cbbf-c72c-06c16a725457.jpg",
+    "publishedAt": "2023-08-24T07:00:00Z",
+    "content": "2022 Apple WWDC2022UX Writer/Content Designer\r\nsubscription iOS16.6 Not NowConfirm\r\nUI TextContent DesignGoogle Meterial DesignFluent2Apple \r\nAdobe Spectrum Spectrum \r\n<ul><li> Voice and tone</li><li… [+952 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Macbidouille.com"
+    },
+    "author": "lionel@macbidouille.com (Lionel)",
+    "title": "Apple décide de supporter le droit à la réparation en Californie",
+    "description": "iFixit nous rapporte une information surprenante. Après avoir passé des années à faire du lobbying contre les lois sur le droit à la réparation, Apple a décidé de supporter une telle loi en Californie.C'est un revirement remarquable qui devrait permettre au p…",
+    "url": "https://macbidouille.com/news/2023/08/24/apple-decide-de-supporter-le-droit-a-la-reparation-en-californie",
+    "urlToImage": "http://macbidouille.com/img/touch/default-touch-icon.png",
+    "publishedAt": "2023-08-24T07:04:41Z",
+    "content": "iFixit nous rapporte une information surprenante. Après avoir passé des années à faire du lobbying contre les lois sur le droit à la réparation, Apple a décidé de supporter une telle loi en Californi… [+1620 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Los Angeles Times"
+    },
+    "author": "Jessica Roy",
+    "title": "Does California have a plastic bag ban or what?",
+    "description": "California's plastic bag ban aimed to reduce waste and increase recycling, but it hasn't exactly worked out as planned. What went wrong?",
+    "url": "https://www.latimes.com/environment/story/2023-08-24/whats-the-deal-with-single-use-plastic-bag-bans",
+    "urlToImage": "https://ca-times.brightspotcdn.com/dims4/default/5e79d0f/2147483647/strip/true/crop/3000x1575+0+213/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F20%2Fba%2Fe7737b704c2195f92c12f1213fad%2Fenviro-cc-plastic-bags-chimishkyan.jpg",
+    "publishedAt": "2023-08-24T10:00:50Z",
+    "content": "Does California have a ban on plastic bags?\r\nThe goals of Senate Bill 270, the so-called plastic bag ban\r\n, spoke to the three Rs of waste reduction: Reduce the number of plastic bags Californians us… [+16342 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Macotakara.jp"
+    },
+    "author": "danbo",
+    "title": "Apple 心斎橋、改装工事中（2023）",
+    "description": "Apple 心斎橋\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- テキスト -->\n\nApple 心斎橋が営業をしながら改装工事を行っています。\n現在、2階部分の改装誇示が実施されていて、ひょっとすると25席のシアターがなくなるかもしれません。\n営業しながらの改装工事は、2019年にApple 表参道が2019年5月から開始し、2019年9月20日にリニューアルオープン。Apple 名古屋栄が、2017年3月から開始し、2017年4月にリニューアルオ…",
+    "url": "https://www.macotakara.jp/apple_store/entry-45204.html",
+    "urlToImage": "https://www.macotakara.jp/archives/001/202308/bbe7cbd95c70ef29.jpg",
+    "publishedAt": "2023-08-24T02:06:43Z",
+    "content": "Apple \r\n225\r\n2019Apple 201952019920Apple 2017320174"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Macotakara.jp"
+    },
+    "author": "danbo",
+    "title": "iPhone 15シリーズに同梱されるUSB-Cケーブルは充電用のUSB 2.0仕様",
+    "description": "Majin Buのポストより\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- テキスト -->\n\nMajin Buが、iPhone 15シリーズに同梱されるUSB-Cケーブルは充電用のUSB 2.0仕様で最大出力は60W(20V/3A)、MFi取得ではないとXにポストしています。\nUSB PD 3.0で、15W(5V/3A)、27W(9V/3A)、45W(15V/3A)、60W(20V/3A)出力に対応しているようです。\nこれは、現在販売されている「A…",
+    "url": "https://www.macotakara.jp/rumor/entry-45205.html",
+    "urlToImage": "https://www.macotakara.jp/archives/001/202308/04cae0c5264be766.jpg",
+    "publishedAt": "2023-08-24T05:32:57Z",
+    "content": "Majin BuiPhone 15USB-CUSB 2.060W(20V/3A)MFiX\r\nUSB PD 3.015W(5V/3A)27W(9V/3A)45W(15V/3A)60W(20V/3A)\r\nApple USB-C1m1.5m\r\nMFiAppleMFi\r\nUSB-CiPadApple USB-C1miPad Pro 11 (4)Thunderbolt 440Gb/siPad Air (5… [+91 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Macmagazine.com.br"
+    },
+    "author": "Douglas Nascimento",
+    "title": "Surpreendendo, Apple manifesta apoio a lei de Direito ao Reparo",
+    "description": "Frequentemente associada a termos como obsolescência programada, a Apple vem tentando mudar esse paradigma nos últimos anos — não somente com ações, mas também com posições públicas sobre o tema. Dessa vez, a Maçã enviou uma carta em apoio a uma lei de Direit…",
+    "url": "https://macmagazine.com.br/post/2023/08/23/surpreendendo-apple-manifesta-apoio-a-lei-de-direito-ao-reparo/",
+    "urlToImage": "https://macmagazine.com.br/wp-content/uploads/2021/11/17-reparo-iphone-2.jpg",
+    "publishedAt": "2023-08-24T00:29:05Z",
+    "content": "Frequentemente associada a termos como obsolescência programada, a Apple vem tentando mudar esse paradigma nos últimos anos não somente com ações, mas também com posições públicas sobre o tema. Dessa… [+1626 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Macmagazine.com.br"
+    },
+    "author": "Pedro Henrique Nunes",
+    "title": "Como abrir um arquivo ou enviar um email na hora de eventos no Calendário [Mac]",
+    "description": "O aplicativo Calendário (Calendar) do Mac permite que você acompanhe todos os seus eventos passados e futuros de um jeito bem fácil e intuitivo — tudo, é claro, sempre sincronizado com todos os seus aparelhos que usam o mesmo ID Apple. Além de permitir que vo…",
+    "url": "https://macmagazine.com.br/post/2023/08/24/como-abrir-um-arquivo-ou-enviar-um-email-na-hora-de-eventos-no-calendario-mac/",
+    "urlToImage": "https://macmagazine.com.br/wp-content/uploads/2022/05/30-calendario.jpeg",
+    "publishedAt": "2023-08-24T10:00:00Z",
+    "content": "O aplicativo Calendário (Calendar) do Mac permite que você acompanhe todos os seus eventos passados e futuros de um jeito bem fácil e intuitivo tudo, é claro, sempre sincronizado com todos os seus ap… [+1019 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Vedomosti.ru"
+    },
+    "author": null,
+    "title": "Суд впервые оштрафовал Telegram за отказ локализовать данные в России",
+    "description": "",
+    "url": "https://www.vedomosti.ru/business/news/2023/08/24/991682-sud-vpervie-oshtrafoval-telegram",
+    "urlToImage": "https://sharing.vedomosti.ru/1692869133/vedomosti.ru/business/news/2023/08/24/991682-sud-vpervie-oshtrafoval-telegram.jpg",
+    "publishedAt": "2023-08-24T09:20:59Z",
+    "content": "Telegram . Spotify, Apple, WhatsApp, Match Group ( Tinder), Airbnb, Google, Twitch, Pinterest ."
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Iphones.ru"
+    },
+    "author": "Артём Баусов",
+    "title": "Россияне подключили более миллиона eSIM за год. Всё благодаря дистанционной активации",
+    "description": "Источники Ведомостей сообщают, что россияне с июля 2022 по июль 2023 года подключили 1 млн eSIM. При этом с 2019 года у операторов набралось 3 млн виртуальных абонентов. Резкий рост спроса на eSIM связан с достижением компромисса между силовыми структурами, М…",
+    "url": "https://www.iphones.ru/iNotes/rossiyane-podklyuchili-bolee-milliona-esim-za-god-vsyo-blagodarya-distancionnoy-aktivacii-08-24-2023",
+    "urlToImage": "https://www.iphones.ru/wp-content/plugins/wonderm00ns-simple-facebook-open-graph-tags/fbimg.php?img=https%3A%2F%2Fwww.iphones.ru%2Fwp-content%2Fuploads%2F2023%2F08%2FIMG_8358.jpeg",
+    "publishedAt": "2023-08-24T07:19:30Z",
+    "content": ", 2022 2023 1 eSIM. 2019 3 .\r\n eSIM , . SIM- .\r\n 225 SIM- « ».\r\n Tele2, , . , eSIM .\r\n eSIM , , Apple, Google Samsung. «» , . []"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Iphones.ru"
+    },
+    "author": "Артём Баусов",
+    "title": "Новые USB-C кабели от iPhone 15 будут работать на тех же скоростях, что и USB 2.0",
+    "description": "Инсайдер Маджин Бу сообщил, что Apple может ограничить скорость передачи данных в новых кабелях USB-C из комплекта iPhone 15. Их скорость будет на уровне USB 2.0, то есть 480 Мбит/с. Одна это ограничения может коснуться только «обычных» айфонов, а в «прошках»…",
+    "url": "https://www.iphones.ru/iNotes/novye-usb-c-kabeli-ot-iphone-15-budut-rabotat-na-teh-zhe-skorostyah-chto-i-usb-20-08-24-2023",
+    "urlToImage": "https://www.iphones.ru/wp-content/plugins/wonderm00ns-simple-facebook-open-graph-tags/fbimg.php?img=https%3A%2F%2Fwww.iphones.ru%2Fwp-content%2Fuploads%2F2023%2F08%2FIMG_8345.jpeg",
+    "publishedAt": "2023-08-24T05:50:56Z",
+    "content": ", Apple USB-C iPhone 15.\r\n USB 2.0, 480 /. «» , «» .\r\n iPad Pro Thunderbolt. , iPad Air USB-C 3.1, iPad 10 - USB 2.0, USB-C.\r\n . USB-C USB 2.0, Thunderbolt . [9to5]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Iphones.ru"
+    },
+    "author": "Артём Баусов",
+    "title": "Вышло обновление Asahi Linux с поддержкой OpenGL ES 3.1 для Mac с чипами M1 и M2. Игры станут работать лучше",
+    "description": "Проект Asahi Linux выпустил первые совместимые драйверы OpenGL ES 3.1 для Mac с процессорами M1 и M2. Драйверы соответствуют конкретным отраслевым стандартам, гарантируя, что они правильно функционируют с различными приложениями. OpenGL ES 3.1 прошли обширное…",
+    "url": "https://www.iphones.ru/iNotes/vyshlo-obnovlenie-asahi-linux-s-podderzhkoy-opengl-es-31-dlya-mac-igry-stanut-rabotat-luchshe-08-24-2023",
+    "urlToImage": "https://www.iphones.ru/wp-content/plugins/wonderm00ns-simple-facebook-open-graph-tags/fbimg.php?img=https%3A%2F%2Fwww.iphones.ru%2Fwp-content%2Fuploads%2F2023%2F08%2FIMG_8346.jpeg",
+    "publishedAt": "2023-08-24T06:15:11Z",
+    "content": "Asahi Linux OpenGL ES 3.1 Mac M1 M2.\r\n , , . OpenGL ES 3.1 , , , . Khronos, , OpenGL.\r\n Apple , M1 M2, API (Vulkan, OpenGL OpenGL ES), , Asahi Linux, .\r\n , , Linux Apple, « », . [MacRumors]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Expansion.com"
+    },
+    "author": "expansion.com",
+    "title": "La Primera de Expansión sobre la muerte del líder de Wagner, Telefónica, Caixabank y Nvidia",
+    "description": "Ademásles hablamos de cómo Telefónica ha entrado en la batalla por conseguir más clientes de bajo coste y de los planes de Caixabank en Luxemburgo. También les desvelamos los espec",
+    "url": "https://www.expansion.com/podcasts/2023/08/24/64e6e90a468aeb25088b458f.html",
+    "urlToImage": "https://phantom-expansion.unidadeditorial.es/6035541870451d1c0a623b7cfc2e50f2/f/jpg/assets/multimedia/imagenes/2023/08/24/16928550347112.jpg",
+    "publishedAt": "2023-08-24T05:57:40Z",
+    "content": "La Primera de Expansión les cuenta hoy que las autoridades rusas han confirmado que el líder del grupo de mercenarios Wagner, Yevgeni Prigozin, ha fallecido tras estrellarse ayer el avión en el que v… [+858 chars]"
+    },
+    {
+   "source": {
+    "id": null,
+    "name": "Livedoor.jp"
+    },
+    "author": "itsoku",
+    "title": "iPhone 15、やはり特別なUSB-Cケーブルが用意されると判明",
+    "description": "1:風吹けば名無し  2023/08/24(木) 07:09:16.60 ID:S+RO7Hz10 iPhone15用のカラフルな編み込み式ケーブルの長さ判明〜種類は本体カラーと一致？    iPhone15シリーズに同梱されると噂のカラフルな編み込み式被覆を持つUSB-Cケーブル（以下、編み込み式USB-Cケーブル）の長さ",
+    "url": "http://blog.livedoor.jp/itsoku/archives/60770749.html",
+    "urlToImage": "https://livedoor.blogimg.jp/itsoku/imgs/9/f/9f3756f0-s.png",
+    "publishedAt": "2023-08-24T00:10:12Z",
+    "content": "1: 2023/08/24() 07:09:16.60 ID:S+RO7Hz10\r\niPhone15 \r\niPhone15USB-CUSB-C1.51.6 \r\nUSB-CiPhone15\r\nhttps://iphone-mania.jp/news-549800/\r\niPhone 15 series type-c cable all color here 1.6 mitar pic.twitter… [+3157 chars]"
+    },
+    {
+    "source": {
+    "id": null,
+    "name": "Giga"
+    },
+    "author": "Peter Hryciuk",
+    "title": "Samsung Galaxy S24 Ultra soll in ganz neuem Licht erstrahlen",
+    "description": "Die Gerüchteküche zum Galaxy S24 Ultra brodelt. Es sickern immer mehr Informationen zum nächsten Top-Smartphone von Samsung durch. Dieses Mal gibt es eine sehr gute und eine eher schlechte Nachricht für alle, die sich das nächste Ultra-Handy kaufen wollen.",
+    "url": "https://www.giga.de/news/samsung-galaxy-s24-ultra-soll-in-ganz-neuem-licht-erstrahlen/",
+    "urlToImage": "https://crops.giga.de/53/96/92/3a6696e7a741f475d4d9f51437_YyAyODIweDE0NzMrOTArMTA3AnJlIDEyMDAgNjI3AzU2MzZlN2Y1ZDUz.jpg",
+    "publishedAt": "2023-08-24T06:50:09Z",
+    "content": "Die Gerüchteküche zum Galaxy S24 Ultra brodelt. Es sickern immer mehr Informationen zum nächsten Top-Smartphone von Samsung durch. Dieses Mal gibt es eine sehr gute und eine eher schlechte Nachricht … [+1997 chars]"
+    }
+    ]
+    }

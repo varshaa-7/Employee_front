@@ -1,0 +1,131 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.header-right {
+    flex: auto;
+    position: absolute;
+    right: 100;
+    left: 800;
+    bottom: 0;
+}
+
+.site-nav {
+    background: #03174f;
+    position: relative;
+    padding:0 188px;
+    margin-left:800px;
+    margin-top: 42px;
+    z-index: 9;
+    height: 49px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.site-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 10;
+    padding: 30;
+    align-items: center;
+}
+
+.site-nav ul li {
+    padding: 0 10px;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.site-nav::after {
+    content: '';
+    width: 60px;
+    height: 49px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("https://iocl.com/assets/images/nav-curve.png") no-repeat;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-section {
+    border-bottom: 4px solid #03174f;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-lg-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+        position: relative;
+    }
+}
+
+.col-lg-3 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.site-header.fixed .logo {
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+.logo {
+    margin: 17px 0 0 0; /* Align logo to the extreme left */
+}
+
+.site-header.fixed {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #FFF;
+    z-index: 99;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.selected::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 2px;
+    border-bottom: 2px solid white;
+}
+
+header {
+    display: block;
+}

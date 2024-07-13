@@ -1,0 +1,246 @@
+.notes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 14px; /* Smaller text */
+    text-align: left;
+  }
+  
+  .notes-table thead {
+    background-color: #004080; /* Darker header background */
+    color: #fff; /* White text */
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .notes-table th,
+  .notes-table td {
+    padding: 8px 10px; /* Adjust padding for smaller text */
+    border: 1px solid #ddd;
+  }
+  
+  .notes-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .notes-table tbody tr:hover {
+    background-color: #dfeef9; /* Light blue hover effect */
+  }
+  
+  .notes-table th {
+    background-color: #004080;
+    color: #fff;
+  }
+  
+  .notes-table td {
+    vertical-align: top;
+    font-family: 'Arial', sans-serif; /* Improved text appearance */
+    line-height: 1.5;
+  }
+  
+  /* Responsive table */
+ /* Add this CSS to your stylesheet */
+
+/* Add this CSS to your stylesheet */
+
+/* Wrap the table in a container */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Base styles for the table */
+.notes-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Ensure columns have a fixed width */
+}
+
+.notes-table th, .notes-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Styles for larger screens */
+@media (min-width: 769px) {
+  .notes-table th, .notes-table td {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+/* Styles for medium screens */
+@media (max-width: 768px) {
+  .notes-table th, .notes-table td {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+/* Styles for small screens */
+@media (max-width: 480px) {
+  /* Hide table headers */
+  .notes-table thead {
+    display: none;
+  }
+
+  /* Display rows as blocks */
+  .notes-table tr {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Display cells as blocks */
+  .notes-table td {
+    display: block;
+    text-align: right;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 30%;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  }
+
+  /* Add labels for cells */
+  .notes-table td::before {
+    content: attr(data-label); /* Use data-label attribute for label */
+    position: absolute;
+    left: 0;
+    width: 80%;
+    padding-bottom: 200px;
+    padding-left: 10px;
+    text-align: left;
+    font-weight: bold;
+    white-space: nowrap; /* Prevent label wrapping */
+  }
+}
+
+
+  /* Improved input field and button styling */
+  .input_holder input[type="text"] {
+    background-color: #e0f7fa;
+    border: 2px solid #0288d1;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #0277bd;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 5px;
+  }
+  
+  .input_holder button {
+    background-color: #0288d1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input_holder button:hover {
+    background-color: #01579b;
+  }
+
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .add-employee-button {
+    background-color: #0288d1;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .add-employee-button:hover {
+    background-color: #0277bd;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-employee-button:active {
+    background-color: #01579b;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .beautiful-button {
+    background-color: #00796b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .beautiful-button:hover {
+    background-color: #00695c;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .beautiful-button:active {
+    background-color: #004d40;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .title{
+    color: #001b2d;
+  }  
+  .title3{
+    color: #c30000;
+  } 
+  .title-2{
+    color: #1f4761;
+  } 
+  .printb{
+    margin-top: 110px;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+  }
+  .container{
+    margin-top: 140px;
+  }
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .title {
+    margin: 20px 0;
+  }
+  
+  .notes-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px; /* Add spacing between rows */
+  }
+  
+  .note-item {
+    margin: 0 10px; /* Add spacing between items in a row */
+  }
+  
+  /* Add any additional styling needed */
+  
