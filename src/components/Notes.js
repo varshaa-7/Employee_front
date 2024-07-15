@@ -5,9 +5,11 @@ import { baseURL } from "../utils/constant";
 import Popup from "./Popup";
 import "./Home.css";
 import "./NotesItem.css";
+import NotesTable from './NotesTable';
 import "./Notes.css"
 import { useReactToPrint } from 'react-to-print';
 import { IoIosPrint } from "react-icons/io";
+import Table from "./Table";
 
 const Notes = () => {
   const printRef=useRef();
@@ -410,78 +412,10 @@ useEffect(() => {
 </table>
 </div>
 
-{/* <table className="notes-table">
-            <thead>
-              <tr>
-                <th className="notes-table-header">Location</th>
-                {weekDates.map((date, index) => (
-                  <th key={index} className="notes-table-header">
-                    {`${date.getDate()}/${date.getMonth() + 1}`} ({['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][date.getDay()]})
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              
-              {['floor officer'].map((postType) => (
-                <tr key={postType}>
-                  <td>{postType.charAt(0).toUpperCase() + postType.slice(1)}</td>
-                  {weekDates.map((date, index) => (
-                    <React.Fragment key={index}>
-                      {renderNotesByPost(postType)}
-                    </React.Fragment>
-                  ))}
-                </tr>
-              ))}
-
-              {['DF2', 'SPM', 'SRC'].map((plant) => (
-                <React.Fragment key={plant}>
-                  <tr>
-                    <td>{plant}</td>
-                    {weekDates.map((date, index) => (
-                      <React.Fragment key={index}>
-                        {renderNotesByPlantAndShift(plant, 'A', index === 0, date)}
-                      </React.Fragment>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td></td>
-                    {weekDates.map((date, index) => (
-                      <React.Fragment key={index}>
-                        {renderNotesByPlantAndShift(plant, 'B', index === 0, date)}
-                      </React.Fragment>
-                    ))}
-                  </tr>
-                </React.Fragment>
-              ))}
-
-           
-              <tr>
-                <td>Shift Officer A</td>
-                {weekDates.map((date, index) => (
-                  <td key={index}>{renderOfficer('shift officer', 'A', index === 0, date)}</td>
-                ))}
-              </tr>
-              <tr>
-                <td>Shift Officer B</td>
-                {weekDates.map((date, index) => (
-                  <td key={index}>{renderOfficer('shift officer', 'B', index === 0, date)}</td>
-                ))}
-              </tr>
-
-            
-              <tr>
-                <td>Leave</td>
-                {weekDates.map((date, index) => (
-                  <td key={index}>{renderNotesByLeave('on leave')}</td>
-                ))}
-              </tr>
-            </tbody>
-          </table> */}
 
 
 <div className="center-container">
-          <h2 className="title text-center">Maintenance(Normal Shift)</h2>
+          {/* <h2 className="title text-center">Maintenance(Normal Shift)</h2>
           <div className="notes-row">{renderNotesByPost("Maintenance")}</div>
           <h2 className="title">Safety (Normal Shift)</h2>
           <div className="notes-row">{renderNotesByPost("Safety")}</div>
@@ -500,10 +434,11 @@ useEffect(() => {
           <div className="notes-row">{renderNotesByPost("Bulk Loading")}</div>
 
           <h2 className="title3">Emergency Duty (From 22:00 to 06:00, including Sunday)</h2>
-          <div className="notes-row">{renderNotesByPost("Emergency Duty")}</div>
+          <div className="notes-row">{renderNotesByPost("Emergency Duty")}</div> */}
+          <Table notes={note}/>
 
           <h2 className="title">On Leave Employee</h2>
-          <div className="notes-row">{renderNotesByLeave("on leave")}</div>
+          <NotesTable notes={note} />
           </div>
         </div>
       </div>

@@ -1,0 +1,21 @@
+.leave-table th {
+    background-color: #004080;
+    color: #fff;
+  }
+  .leave-table th,
+  .leave-table td {
+    padding: 8px 10px; /* Adjust padding for smaller text */
+    border: 1px solid #ddd;
+    
+  }
+  .leave-table td{
+    color: black;
+  }
+  
+  .leave-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .leave-table tbody tr:hover {
+    background-color: #dfeef9; /* Light blue hover effect */
+  }

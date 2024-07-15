@@ -12,12 +12,15 @@ const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPo
     const [leaveReason, setLeaveReason] = useState('');
     const [leaveStartDate, setLeaveStartDate] = useState('');
     const [leaveEndDate, setLeaveEndDate] = useState('');
+    
+    
     const deleteNotes=()=>{
         axios.delete(`${baseURL}/delete/${id}`).then(res =>{
             console.log(res.data);
             setUpdateUI((prevState)=>!prevState)
         })
     }
+    
     const updateNotes =()=>{
         setPopupContent({text,post,plant, shift,status, id,date});
         setShowPopup(true);
@@ -43,8 +46,8 @@ const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPo
                 console.log(res.data);
                 setUpdateUI((prev) => !prev);
                 setLeaveReason(reason); // Update the leave reason
-                // setLeaveStartDate(startDate);
-                // setLeaveEndDate(endDate);
+                setLeaveStartDate(startDate); // Update the leave start date
+                setLeaveEndDate(endDate);
             })
             .catch((err) => console.log(err));
     };
@@ -77,9 +80,9 @@ const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPo
                     {plant && <div>Plant: {plant}</div>}
                     {shift && <div>Shift: {shift}</div>}
                     <div>Status: {status}</div>
-                    {status === 'on leave' && <div>Reason: {leaveReason}</div>}
+                    {/* {status === 'on leave' && <div>Reason: {leaveReason}</div>}
                     {status === 'on leave' && <div>Leave Dates: {formatDate(leaveStartDate)} - {formatDate(leaveEndDate)}</div>}
-                    <div>Date: {formatDate(date)}</div>
+                    <div>Date: {formatDate(date)}</div> */}
                 </div>
                 <div className='icons'>
                     <CiEdit className='icon' onClick={updateNotes}/>
