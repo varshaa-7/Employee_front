@@ -1,7 +1,8 @@
 import React from "react";
 import './NotesTable.css';
 import NotesItem from './NotesItem.js';
-
+import "./Notes.css"
+import "./Home.css";
 const Table = ({ notes, setUpdateUI, setShowPopup, setPopupContent, popupContent }) => {
   const sections = [
     "Safety",
@@ -15,7 +16,7 @@ const Table = ({ notes, setUpdateUI, setShowPopup, setPopupContent, popupContent
   ];
 
   const renderNotesByPost = (postType) => {
-    const filteredNotes = notes
+    return notes
       .filter(el => !el.plant && (el.shift === 'A' || el.shift === 'B' || el.shift === '') && el.posts === postType)
       .map(el => (
         <NotesItem
@@ -31,28 +32,37 @@ const Table = ({ notes, setUpdateUI, setShowPopup, setPopupContent, popupContent
           popupContent={popupContent}
         />
       ));
-    return filteredNotes.length > 0 ? filteredNotes : <p>No data available</p>;
   };
 
+  // Prepare notes for each section
+  const sectionNotes = sections.map(section => renderNotesByPost(section));
+
+  // Determine the maximum number of notes in any section
+  const maxRows = Math.max(...sectionNotes.map(notes => notes.length));
+
   return (
-    <table className="leave-table">
+    <div className="list">
+  <div className="table-container">
+    <table className="notes-table">
       <thead>
         <tr>
           {sections.map(section => (
-            <th key={section}>{section}</th>
+            <th key={section} style={{ width: "150px" }}>{section}</th>
           ))}
         </tr>
       </thead>
       <tbody>
-        <tr>
-          {sections.map(section => (
-            <td key={section}>
-              {renderNotesByPost(section)}
-            </td>
-          ))}
-        </tr>
+        {Array.from({ length: maxRows }).map((_, rowIndex) => (
+          <tr key={rowIndex}>
+            {sectionNotes.map((notes, colIndex) => (
+              <td key={sections[colIndex]} style={{ width: "150px" }}>
+                {notes[rowIndex] || <p>-</p>}
+              </td>
+            ))}
+          </tr>
+        ))}
       </tbody>
-    </table>
+    </table></div></div>
   );
 };
 

@@ -10,6 +10,8 @@ import "./Notes.css"
 import { useReactToPrint } from 'react-to-print';
 import { IoIosPrint } from "react-icons/io";
 import Table from "./Table";
+import Popupl from "./Popupl"
+import PopupA from "./PopupA"
 
 const Notes = () => {
   const printRef=useRef();
@@ -21,7 +23,10 @@ const Notes = () => {
     plant: "",
     shift: "",
     status: "working",
-    date: new Date().toISOString().split('T')[0] 
+    date: new Date().toISOString().split('T')[0],
+    leaveReason:"",
+    leaveStartDate:new Date().toISOString().split('T')[0],
+    leaveEndDate:new Date().toISOString().split('T')[0]
   });
   const [updateUI, setUpdateUI] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
@@ -29,6 +34,9 @@ const Notes = () => {
   const [currentShift, setCurrentShift] = useState("");
   const [weekDates, setWeekDates] = useState([]);
   const [showInputs, setShowInputs] = useState(false);
+  const [showInputss, setShowInputss] = useState(false);
+  const [leaveStartDate, setLeaveStartDate] = useState('');
+  const [leaveEndDate, setLeaveEndDate] = useState('');
 
 useEffect(() => {
     // Fetch current shift and notes on component mount and when updateUI changes
@@ -78,8 +86,11 @@ useEffect(() => {
       .then((res) => {
         console.log(res.data);
         setUpdateUI((prevState) => !prevState);
-        setInput({ notes: "", posts: "", plant: "", shift: "" , date: new Date().toISOString().split('T')[0]});
+        setInput({ notes: "", posts: "", plant: "", shift: "" , date: new Date().toISOString().split('T')[0],leaveReason:"",
+          leaveStartDate:new Date().toISOString().split('T')[0],
+          leaveEndDate:new Date().toISOString().split('T')[0]});
         setShowInputs(false);
+        setShowInputss(false);
       })
       .catch((err) => console.log(err));
   };
@@ -224,6 +235,13 @@ useEffect(() => {
         console.error("Error updating specific notes dates:", err);
     }
 };
+const updatePopupContent = (text, post, plant, shift, status, id, date) => {
+  setPopupContent({ text, post, plant, shift, status, id, date });
+  setShowPopup(true);
+};
+const handleAddEmployee = () => {
+  setShowInputss(true);
+};
 
   return (
     <>
@@ -252,8 +270,8 @@ useEffect(() => {
         style={{
           color: "#87CEEB",
           fontWeight: "bold",
-          margin: "10px 0px",
-          marginTop: "30px",
+          margin: "5px 0px",
+          marginTop: "5px",
           alignItems: "center",
         }}
       >
@@ -261,108 +279,16 @@ useEffect(() => {
         <h1 className="title text-center">LPG Bottling Plant, Kanpur</h1>
         <h2 className="title-2 text-center">Officer Duty Roaster</h2>
         <div className="button-container">
-        <button onClick={() => setShowInputs(!showInputs)}className="add-employee-button">Add Employee</button>
-        {/* <button className="update-notes-btn add-employee-button" onClick={updateSpecificNotesDate}>
-            Update Dates
-          </button> */}
+        <button onClick={handleAddEmployee}className="add-employee-button">Add Employee</button>
+        
         </div>
-        {showInputs && (
-        <div className="input_holder text-center">
-          <input
-            value={input.notes}
-            onChange={(e) => setInput({ ...input, notes: e.target.value })}
-            style={inputStyle}
-            type="text"
-            placeholder="Add Emplyee Name"
-            onFocus={(e) => (e.target.style.borderColor = "#01579b")}
-            onBlur={(e) => (e.target.style.borderColor = "#0288d1")}
-          />
-          {/* <input
-            value={input.posts}
-            onChange={(e) => setInput({ ...input, posts: e.target.value })}
-            style={inputStyle}
-            type="text"
-            placeholder="Add post"
-            onFocus={(e) => (e.target.style.borderColor = "#01579b")}
-            onBlur={(e) => (e.target.style.borderColor = "#0288d1")}
-          />
-          <input
-            value={input.plant}
-            onChange={(e) => setInput({ ...input, plant: e.target.value })}
-            style={inputStyle}
-            type="text"
-            placeholder="Add plant"
-            onFocus={(e) => (e.target.style.borderColor = "#01579b")}
-            onBlur={(e) => (e.target.style.borderColor = "#0288d1")}
-          /> */}
-
-          <select
-            value={input.posts}
-            onChange={(e) => setInput({ ...input, posts: e.target.value })}
-            style={inputStyle}
-            onFocus={(e) => (e.target.style.borderColor = "#01579b")}
-            onBlur={(e) => (e.target.style.borderColor = "#0288d1")}
-          >
-            <option value="" disabled>
-              Select post
-            </option>
-            <option value="Officer">Officer</option>
-            <option value="Floor Officer">Floor Officer</option>
-            <option value="Maintenance">Maintenance</option>
-            <option value="Safety">Safety</option>
-            <option value="Capital">Capital</option>
-            <option value="Store">Store</option>
-            <option value="LIC">LIC</option>
-            <option value="SIC">SIC</option>
-            <option value="Bulk Loading">Bulk Loading</option>
-            <option value="Emergency Duty">Emergency Duty</option>
-            
-          </select>
-
-
-          <select
-            value={input.plant}
-            onChange={(e) => setInput({ ...input, plant: e.target.value })}
-            style={inputStyle}
-            onFocus={(e) => (e.target.style.borderColor = "#01579b")}
-            onBlur={(e) => (e.target.style.borderColor = "#0288d1")}
-          >
-            <option value="" >
-              Select plant type
-            </option>
-            <option value="Mini">Mini</option>
-            <option value="Major">Major</option>
-          </select>
-
-
-
-          <select
-            value={input.shift}
-            onChange={(e) => setInput({ ...input, shift: e.target.value })}
-            style={inputStyle}
-            onFocus={(e) => (e.target.style.borderColor = "#01579b")}
-            onBlur={(e) => (e.target.style.borderColor = "#0288d1")}
-          >
-            <option value="">
-              Select shift
-            </option>
-            <option value="A">A</option>
-            <option value="B">B</option>
-          </select>
-
-
-          <input
-            type="date"
-            name="date"
-            value={input.date}
-            onChange={(e) => setInput({ ...input, [e.target.name]: e.target.value })}
-            style={inputStyle}
-          />
-
-          <button onClick={saveNotes} className="beautiful-button">
-            Add
-          </button>
-        </div>
+        {showInputss && (
+        <PopupA
+        input={input}
+        setInput={setInput}
+        saveNotes={saveNotes}
+        setShowInputss={setShowInputss}
+      />
         )}
         <div className="list">
   <div className="table-container">
@@ -435,10 +361,25 @@ useEffect(() => {
 
           <h2 className="title3">Emergency Duty (From 22:00 to 06:00, including Sunday)</h2>
           <div className="notes-row">{renderNotesByPost("Emergency Duty")}</div> */}
-          <Table notes={note}/>
+          <Table notes={note} setUpdateUI={setUpdateUI} setPopupContent={setPopupContent} setShowPopup ={setShowPopup}/>
+          <button onClick={() => setShowInputs(!showInputs)}className="add-employee-button">Add Employee</button>
+          {showInputs && (
+        <Popupl
+          setShowPopup={setShowPopup}
+          setShowInputs={setShowInputs}
+          input={input}
+          setInput={setInput}
+          leaveStartDate={leaveStartDate}
+          setLeaveStartDate={setLeaveStartDate}
+          leaveEndDate={leaveEndDate}
+          setLeaveEndDate={setLeaveEndDate}
+          saveNotes={saveNotes}
+        />
+      )}
 
           <h2 className="title">On Leave Employee</h2>
-          <NotesTable notes={note} />
+          
+          <NotesTable notes={note} setUpdateUI={setUpdateUI} />
           </div>
         </div>
       </div>

@@ -1,64 +1,164 @@
-/* styles.css */
-.popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #f7f7fb;
-    border: 2px solid #0288d1;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    z-index: 1000;
-    max-width: 400px;
-    width: 100%;
+/* Popup.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
   }
-  
-  .popup__input_holder {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-  }
-  
-  .cross {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    color: #4169E1;
-    font-weight: bolder;
-  }
-  
-  .beautiful-button {
-    cursor: pointer;
-    background: linear-gradient(45deg, #1e90ff, #00bfff);
-    border: none;
-    border-radius: 25px;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    margin-left: 10px;
-  }
-  
-  .beautiful-button:hover {
-    background: linear-gradient(45deg, #00bfff, #1e90ff);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-    transform: translateY(-2px);
-  }
-  
-  .beautiful-button:active {
-    background: linear-gradient(45deg, #1e90ff, #00bfff);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  to {
+    opacity: 1;
     transform: translateY(0);
   }
-  
-  .beautiful-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 4px rgba(30, 144, 255, 0.4);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.popup {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  animation: bounce 0.5s ease-out;
+}
+
+.popup-title {
+  color: #333333;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.popup__input_holder {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  flex-direction: column;
+}
+
+.cross {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ff0000;
+  transition: color 0.3s ease;
+  animation: spin 1.5s infinite;
+}
+
+.cross:hover {
+  color: #555555;
+}
+
+.popup-label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+  color: #333333;
+  font-weight: 500;
+}
+
+.popup-input {
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #333333;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  flex-grow: 1;
+  width: 100%;
+  animation: flash 1.5s infinite;
+}
+
+.popup-input:focus {
+  border-color: #ff5e00;
+  border-width: 1.5px;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.beautiful-button {
+  cursor: pointer;
+  background: linear-gradient(45deg, #1e90ff, #00bfff);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s;
+  animation: bounce 0.5s ease-out;
+}
+
+.beautiful-button:hover {
+  background: linear-gradient(45deg, #00bfff, #1e90ff);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.beautiful-button:active {
+  background: linear-gradient(45deg, #1e90ff, #00bfff);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+
+.beautiful-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(30, 144, 255, 0.4);
+}
+
+.popup-input::placeholder {
+  color: #cccccc;
+}

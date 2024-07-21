@@ -1,4 +1,4 @@
-import {React, useState} from 'react'
+import {React, useState,useEffect} from 'react'
 import axios from 'axios';
 import { CiEdit } from "react-icons/ci";
 import { MdDelete } from "react-icons/md";
@@ -7,12 +7,11 @@ import { baseURL } from '../utils/constant';
 import './NotesItem.css'
 import LeavePopup from './LeavePopup';
 
-const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPopup,setPopupContent})=> {
+const NotesItem = ({text,post,plant, shift,status,id,date,setUpdateUI, setShowPopup, setPopupContent, popupContent})=> {
     const [showLeavePopup, setShowLeavePopup] = useState(false);
     const [leaveReason, setLeaveReason] = useState('');
     const [leaveStartDate, setLeaveStartDate] = useState('');
     const [leaveEndDate, setLeaveEndDate] = useState('');
-    
     
     const deleteNotes=()=>{
         axios.delete(`${baseURL}/delete/${id}`).then(res =>{
@@ -20,7 +19,6 @@ const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPo
             setUpdateUI((prevState)=>!prevState)
         })
     }
-    
     const updateNotes =()=>{
         setPopupContent({text,post,plant, shift,status, id,date});
         setShowPopup(true);
@@ -46,11 +44,22 @@ const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPo
                 console.log(res.data);
                 setUpdateUI((prev) => !prev);
                 setLeaveReason(reason); // Update the leave reason
-                setLeaveStartDate(startDate); // Update the leave start date
+                setLeaveStartDate(startDate);
                 setLeaveEndDate(endDate);
             })
             .catch((err) => console.log(err));
     };
+    useEffect(() => {
+        const today = new Date();
+        if (leaveEndDate && today >= new Date(leaveEndDate) && status === 'on leave') {
+          axios.put(`${baseURL}/update/${id}`, { status: 'working' })
+            .then((res) => {
+              console.log(res.data);
+              setUpdateUI((prev) => !prev);
+            })
+            .catch((err) => console.log(err));
+        }
+      }, [leaveEndDate, status, id, setUpdateUI]);
     // const toggleStatus = () => {
     //     const newStatus = status === 'working' ? 'on leave' : 'working';
     //     axios.put(`${baseURL}/update/${id}`, { status: newStatus })
@@ -79,14 +88,14 @@ const NotesItem = ({text,post,plant, shift,status,id,date, setUpdateUI,setShowPo
                     {/* <div>{post}</div> */}
                     {plant && <div>Plant: {plant}</div>}
                     {shift && <div>Shift: {shift}</div>}
-                    <div>Status: {status}</div>
-                    {/* {status === 'on leave' && <div>Reason: {leaveReason}</div>}
+                    {/* <div>Status: {status}</div>
+                    {status === 'on leave' && <div>Reason: {leaveReason}</div>}
                     {status === 'on leave' && <div>Leave Dates: {formatDate(leaveStartDate)} - {formatDate(leaveEndDate)}</div>}
                     <div>Date: {formatDate(date)}</div> */}
                 </div>
                 <div className='icons'>
-                    <CiEdit className='icon' onClick={updateNotes}/>
-                    <MdDelete className='icon' onClick={deleteNotes}/>
+                    <CiEdit className='icon edit-button' onClick={updateNotes}/>
+                    <MdDelete className='icon delete-button' onClick={deleteNotes}/>
                     <button onClick={markOnLeave} className="beautiful-buttonl mark-button">
                         {status === 'working' ? 'On leave' : 'working'}
                     

@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react'
 import { RxCross1 } from "react-icons/rx";
 import { baseURL } from '../utils/constant';
@@ -21,21 +22,12 @@ const Popup = ({setShowPopup,setUpdateUI,popupContent={}})=> {
     return (
     <>
       <div className='backdrop'>
-        <div className='popup'>
+        <div className='popup leave-popup'>
             <RxCross1 className='cross' onClick={()=>setShowPopup(false)}/>
-            <h1 style={{color:'#87CEEB', fontWeight: 'bold'}}>Update Name</h1>
+            <h1 className='popup-title'>Update Name</h1>
             <div className='popup__input_holder'>
-                <input style={{
-                    backgroundColor: '#e0f7fa',
-                    border: '2px solid #0288d1',
-                    borderRadius: '20px',
-                    padding: '10px 15px',
-                    fontSize: '16px',
-                    color: '#0277bd',
-                    outline: 'none',
-                    transition: 'border-color 0.3s ease',
-                    marginRight:'10px'
-                }} value={input} onChange={(e) => setInput(e.target.value)} type='text' placeholder='Update notes'/>
+                <input className='popup-input'
+                 value={input} onChange={(e) => setInput(e.target.value)} type='text' placeholder='Update notes'/>
                 <button onClick={updateNotes} className='beautiful-button'>Update</button>
             </div>
 

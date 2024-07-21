@@ -1,207 +1,294 @@
-.notes-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 15px 0;
-    font-size: 14px; /* Smaller text */
-    text-align: left;
-  }
-  
-  .notes-table thead {
-    background-color: #004080; /* Darker header background */
-    color: #fff; /* White text */
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .notes-table th,
-  .notes-table td {
-    padding: 8px 10px; /* Adjust padding for smaller text */
-    border: 1px solid #ddd;
-  }
-  
-  .notes-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .notes-table tbody tr:hover {
-    background-color: #dfeef9; /* Light blue hover effect */
-  }
-  
-  .notes-table th {
-    background-color: #004080;
-    color: #fff;
-  }
-  
-  .notes-table td {
-    vertical-align: top;
-    font-family: 'Arial', sans-serif; /* Improved text appearance */
-    line-height: 1.5;
-  }
-  
-  /* Responsive table */
- /* Add this CSS to your stylesheet */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-/* Add this CSS to your stylesheet */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+  text-align: center; /* Add this to center all elements */
+  display: flex;
+  justify-content: center; /* Add this to center the container */
+  height: 100vh;
+  margin: 0;
+}
 
-/* Wrap the table in a container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* Add this to center the container */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Add this to center all elements inside the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #001b2d;
+}
+
+.title-2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #1f4761;
+}
+
+.title3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #c30000;
+}
+
+/* Table Styles */
+
 .table-container {
   width: 100%;
   overflow-x: auto;
+  margin: 0 auto;
 }
 
-/* Base styles for the table */
 .notes-table {
   width: 100%;
   border-collapse: collapse;
-  table-layout: fixed; /* Ensure columns have a fixed width */
+  table-layout: fixed;
+  margin: 0 auto;
 }
 
-.notes-table th, .notes-table td {
-  border: 1px solid #ccc;
-  padding: 8px;
+.notes-table thead {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.notes-table th,.notes-table td {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  line-height: 25px;
   text-align: center;
 }
 
-/* Styles for larger screens */
-@media (min-width: 769px) {
-  .notes-table th, .notes-table td {
-    padding: 12px;
-    font-size: 14px;
+.notes-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.notes-table tbody tr:hover {
+  background-color: #eaf4fc;
+}
+
+/* Input Field and Button Styles */
+
+.input_holder input[type="text"] {
+  background-color: #e0f7fa;
+  border: 2px solid #0288d1;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #0277bd;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin: 5px;
+}
+
+.input_holder button {
+  background-color: #0288d1;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input_holder button:hover {
+  background-color: #01579b;
+}
+
+/* Button Container Styles */
+
+.button-container {
+  float: right;
+  justify-content: flex-end; /* Change this from center to flex-end */
+  margin-bottom: 15px;
+  text-align: right!important; /* Add this to align the button to the right */
+}
+
+.add-employee-button {
+  background-color: #12368d; /* blue theme */
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.add-employee-button:hover {
+  background-color: #3498db; /* hover effect */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  animation: pulse 1.5s infinite;
+}
+
+.add-employee-button:active {
+  background-color: #2980b9; /* active effect */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
-/* Styles for medium screens */
-@media (max-width: 768px) {
-  .notes-table th, .notes-table td {
-    padding: 10px;
-    font-size: 12px;
+.add-employee-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #12368d;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+
+.add-employee-button:hover::before {
+  transform: scaleX(1);
+  animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: scaleX(1) translateX(0);
+  }
+  50% {
+    transform: scaleX(1.1) translateX(10px);
+  }
+  100% {
+    transform: scaleX(1) translateX(0);
+  }
+}
+.beautiful-button {
+  position: relative;
+  background-color: #12368d; /* green theme */
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.beautiful-button:hover {
+  background-color: #12368d; /* hover effect */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  animation: pulse 1.5s infinite;
+}
+
+.beautiful-button:active {
+  background-color: #12368d; /* active effect */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 
-/* Styles for small screens */
-@media (max-width: 480px) {
-  /* Hide table headers */
-  .notes-table thead {
-    display: none;
-  }
+.beautiful-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #12368d;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
 
-  /* Display rows as blocks */
-  .notes-table tr {
-    display: block;
-    margin-bottom: 10px;
-  }
+.beautiful-button:hover::before {
+  transform: scaleX(1);
+  animation: wave 1.5s infinite;
+}
 
-  /* Display cells as blocks */
-  .notes-table td {
-    display: block;
-    text-align: right;
-    position: relative;
-    padding-top: 10px;
-    padding-left: 30%;
-    white-space: nowrap; /* Prevent text wrapping */
-    overflow: hidden; /* Hide overflow */
-    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+@keyframes wave {
+  0% {
+    transform: scaleX(1) translateX(0);
   }
-
-  /* Add labels for cells */
-  .notes-table td::before {
-    content: attr(data-label); /* Use data-label attribute for label */
-    position: absolute;
-    left: 0;
-    width: 80%;
-    padding-bottom: 200px;
-    padding-left: 10px;
-    text-align: left;
-    font-weight: bold;
-    white-space: nowrap; /* Prevent label wrapping */
+  50% {
+    transform: scaleX(1.1) translateX(10px);
+  }
+  100% {
+    transform: scaleX(1) translateX(0);
   }
 }
 
+.beautiful-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #12368d;
+  transition: text-shadow 0.3s ease;
+}
 
-  /* Improved input field and button styling */
-  .input_holder input[type="text"] {
-    background-color: #e0f7fa;
-    border: 2px solid #0288d1;
-    border-radius: 20px;
-    padding: 10px 15px;
-    font-size: 16px;
-    color: #0277bd;
-    outline: none;
-    transition: border-color 0.3s ease;
-    margin: 5px;
-  }
-  
-  .input_holder button {
-    background-color: #0288d1;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .input_holder button:hover {
-    background-color: #01579b;
-  }
-
-
-  .button-container {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-  }
-  
-  .add-employee-button {
-    background-color: #0288d1;
-    border: none;
-    color: white;
-    padding: 12px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .add-employee-button:hover {
-    background-color: #0277bd;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  .add-employee-button:active {
-    background-color: #01579b;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .beautiful-button {
-    background-color: #00796b;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .beautiful-button:hover {
-    background-color: #00695c;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  .beautiful-button:active {
-    background-color: #004d40;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  }
+.beautiful-button:hover::after {
+  text-shadow: 0px 0px 20px #12368d, 0px 0px 30px #4CAF50;
+}
   .title{
     color: #001b2d;
   }  
@@ -212,13 +299,14 @@
     color: #1f4761;
   } 
   .printb{
-    margin-top: 110px;
+    margin-top: 95px;
     width: 35px;
     height: 25px;
     cursor: pointer;
+    align-items: flex-end;
   }
   .container{
-    margin-top: 140px;
+    margin-top: 80px;
   }
   .center-container {
     display: flex;
@@ -228,19 +316,101 @@
   }
   
   .title {
-    margin: 20px 0;
+    margin: 5px 0;
   }
   
   .notes-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 10px; /* Add spacing between rows */
+    margin-bottom: 5px; /* Add spacing between rows */
   }
   
   .note-item {
-    margin: 0 10px; /* Add spacing between items in a row */
+    margin: 0 5px; /* Add spacing between items in a row */
   }
   
   /* Add any additional styling needed */
-  
+  @media only screen and (max-width: 768px) {
+    /* Adjust the container width and padding */
+   .container {
+      max-width: 90%;
+      padding: 10px;
+    }
+    
+    /* Adjust the button container and button styles */
+   .button-container {
+      float: none;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
+   .add-employee-button {
+      width: 100%;
+      margin: 10px auto;
+    }
+    
+    /* Adjust the table styles */
+   .table-container {
+      overflow-x: auto;
+    }
+    
+   .notes-table {
+      font-size: 14px;
+    }
+    
+   .notes-table th,.notes-table td {
+      padding: 2px 4px;
+    }
+    
+    /* Adjust the input field and button styles */
+   .input_holder input[type="text"] {
+      width: 100%;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+    
+   .input_holder button {
+      width: 100%;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+    
+    /* Adjust the title and note item styles */
+   .title {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    
+   .title-2 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    
+   .title3 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    
+   .note-item {
+      margin: 0 2px;
+    }
+    
+   .notes-row {
+      flex-wrap: wrap;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .container {
+      padding: 1% 2%;
+      margin: 1% auto;
+    }
+    .button-container {
+      float: none;
+      text-align: center;
+    }
+    .add-employee-button {
+      width: 100%;
+      margin: 10px auto;
+    }
+  }

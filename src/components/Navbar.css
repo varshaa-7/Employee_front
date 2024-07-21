@@ -11,18 +11,18 @@
     flex: auto;
     position: absolute;
     right: 100;
-    left: 800;
+    left: 100;
     bottom: 0;
 }
 
 .site-nav {
     background: #03174f;
     position: relative;
-    padding:0 188px;
+    padding:0 168px;
     margin-left:800px;
     margin-top: 42px;
     z-index: 9;
-    height: 49px;
+    height: 47px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
