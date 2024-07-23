@@ -314,7 +314,7 @@ const handleAddInst = () => {
                 
                 return (
                   <tr key={index}>
-                    <td data-label="Date">{date.toDateString()}</td>
+                    <td data-label="Date" style={{color:"#03174f"}}>{date.toDateString()}</td>
                     {renderNotesByPlantAndShift("Mini", "A", date)}
                     {renderNotesByPlantAndShift("Major", "A", date)}
                     <td data-label="Shift A(Officers)">{renderOfficer("Officer", "A", date)}</td>
