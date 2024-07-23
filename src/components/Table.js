@@ -41,13 +41,13 @@ const Table = ({ notes, setUpdateUI, setShowPopup, setPopupContent, popupContent
   const maxRows = Math.max(...sectionNotes.map(notes => notes.length));
 
   return (
-    <div className="list">
+    <div className="list" style={{ fontSize:'15px'}}>
   <div className="table-container">
-    <table className="notes-table">
+    <table className="notes-table" >
       <thead>
         <tr>
           {sections.map(section => (
-            <th key={section} style={{ width: "150px" }}>{section}</th>
+            <th key={section} style={{ width: "140px" }}>{section}</th>
           ))}
         </tr>
       </thead>

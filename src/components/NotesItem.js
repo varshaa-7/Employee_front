@@ -7,7 +7,7 @@ import { baseURL } from '../utils/constant';
 import './NotesItem.css'
 import LeavePopup from './LeavePopup';
 
-const NotesItem = ({text,post,plant, shift,status,id,date,setUpdateUI, setShowPopup, setPopupContent, popupContent})=> {
+const NotesItem = ({text,post,plant, shift,status,id,date,inst,setUpdateUI, setShowPopup, setPopupContent, popupContent})=> {
     const [showLeavePopup, setShowLeavePopup] = useState(false);
     const [leaveReason, setLeaveReason] = useState('');
     const [leaveStartDate, setLeaveStartDate] = useState('');
@@ -84,14 +84,15 @@ const NotesItem = ({text,post,plant, shift,status,id,date,setUpdateUI, setShowPo
     <>
       <div className='notes text-center'>
                 <div className='note-content'>
-                    <div>{text}</div>
+                    {text && <div>{text}</div>}
                     {/* <div>{post}</div> */}
-                    {plant && <div>Plant: {plant}</div>}
+                    {/* {plant && <div>Plant: {plant}</div>}
                     {shift && <div>Shift: {shift}</div>}
-                    {/* <div>Status: {status}</div>
+                    <div>Status: {status}</div>
                     {status === 'on leave' && <div>Reason: {leaveReason}</div>}
                     {status === 'on leave' && <div>Leave Dates: {formatDate(leaveStartDate)} - {formatDate(leaveEndDate)}</div>}
                     <div>Date: {formatDate(date)}</div> */}
+                    {inst && <div> {inst}</div>}
                 </div>
                 <div className='icons'>
                     <CiEdit className='icon edit-button' onClick={updateNotes}/>

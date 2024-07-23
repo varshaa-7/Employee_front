@@ -137,3 +137,86 @@
     transform: scaleX(1) translateX(0);
   }
 }
+/* Add media queries for phone screens */
+
+@media only screen and (max-width: 480px) {
+  /* Adjust the notes styles */
+  .notes {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .note-content {
+    font-size: 14px;
+  }
+  
+  .icons {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .icon {
+    font-size: 16px;
+  }
+  
+  /* Adjust the leave button styles */
+  .beautiful-buttonl {
+    padding: 1px 2px;
+    font-size: 10px;
+  }
+  
+  .beautiful-buttonl::before {
+    border-radius: 3px;
+  }
+  
+  .beautiful-buttonl::after {
+    font-size: 10px;
+  }
+  
+  .beautiful-buttonl:hover::after {
+    text-shadow: 0px 0px 1px #ffa07a, 0px 0px 2px #ffa07a;
+  }
+  
+  .beautiful-buttonl:hover {
+    background-color: #ff9900;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .beautiful-buttonl:active {
+    background-color: #ff9900;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.4);
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: scaleX(0.9) translateX(0);
+    }
+    50% {
+      transform: scaleX(1) translateX(1px);
+    }
+    100% {
+      transform: scaleX(0.9) translateX(0);
+    }
+  }
+}

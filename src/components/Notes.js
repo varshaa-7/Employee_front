@@ -12,6 +12,8 @@ import { IoIosPrint } from "react-icons/io";
 import Table from "./Table";
 import Popupl from "./Popupl"
 import PopupA from "./PopupA"
+import Inst from "./Inst";
+import InstTable from "./InstTable";
 
 const Notes = () => {
   const printRef=useRef();
@@ -26,7 +28,8 @@ const Notes = () => {
     date: new Date().toISOString().split('T')[0],
     leaveReason:"",
     leaveStartDate:new Date().toISOString().split('T')[0],
-    leaveEndDate:new Date().toISOString().split('T')[0]
+    leaveEndDate:new Date().toISOString().split('T')[0],
+    inst:"",
   });
   const [updateUI, setUpdateUI] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
@@ -35,8 +38,10 @@ const Notes = () => {
   const [weekDates, setWeekDates] = useState([]);
   const [showInputs, setShowInputs] = useState(false);
   const [showInputss, setShowInputss] = useState(false);
+  const [showInput, setShowInput] = useState(false);
   const [leaveStartDate, setLeaveStartDate] = useState('');
   const [leaveEndDate, setLeaveEndDate] = useState('');
+  const [inst, setInst] = useState("");
 
 useEffect(() => {
     // Fetch current shift and notes on component mount and when updateUI changes
@@ -90,7 +95,7 @@ useEffect(() => {
           leaveStartDate:new Date().toISOString().split('T')[0],
           leaveEndDate:new Date().toISOString().split('T')[0]});
         setShowInputs(false);
-        setShowInputss(false);
+        setShowInputss(false);setShowInput(false);
       })
       .catch((err) => console.log(err));
   };
@@ -115,17 +120,8 @@ useEffect(() => {
     return grouped;
   };
 
-  const renderNotesByPlantAndShift = (plant, shift, isSunday, date) => {
-    
-    if (isSunday) {
-      return (
-        <>
-          <td>-</td>
-          <td>-</td>
-        </>
-      );
-    }
-    
+  const renderNotesByPlantAndShift = (plant, shift,date) => {
+  
     const filteredNotes = note.filter(
       (el) => el.plant === plant && el.shift === shift && el.posts === "Floor Officer"&&
       new Date(el.date).toDateString() === date.toDateString()
@@ -181,11 +177,9 @@ useEffect(() => {
       ));
   };
 
-  const renderOfficer =(postType,shiftType,isSunday, date)=>{
+  const renderOfficer =(postType,shiftType, date)=>{
     
-    if (isSunday) {
-      return "-";
-    }
+    
 
     return note
       .filter((el) => el.plant==="" && (el.shift===shiftType) && el.posts === postType&&
@@ -242,23 +236,18 @@ const updatePopupContent = (text, post, plant, shift, status, id, date) => {
 const handleAddEmployee = () => {
   setShowInputss(true);
 };
+const handleAddInst = () => {
+  setShowInput(true);
+};
 
   return (
     <>
 
-      {/* <ReactToPrint
-      trigger={()=>{
-        return <button>Print</button>
-      }}
-      content={()=>this.componentRef}
-      documentTitle="New Doc"
-      pageStyle="print"
-      />
-      <div ref={el=>(this.componentRef=el)}> */}
-      <div className="button-container" style={{ display: 'flex', alignItems: 'center', color: 'black' }}>
-  <div onClick={handlePrint} style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', color: 'black' }}>
+     
+      <div className="button-container" >
+  <div onClick={handlePrint} >
     <IoIosPrint className="printb" style={{ color: 'black' }} />
-    <h4 className="prt" style={{ color: 'black', marginLeft: '5px'}}>Print</h4>
+    <h6 className="prt" >Print</h6>
   </div>
 </div>
 
@@ -270,8 +259,9 @@ const handleAddEmployee = () => {
         style={{
           color: "#87CEEB",
           fontWeight: "bold",
-          margin: "5px 0px",
+          margin: "5px 2px",
           marginTop: "5px",
+          padding:"3px",
           alignItems: "center",
         }}
       >
@@ -291,8 +281,8 @@ const handleAddEmployee = () => {
       />
         )}
         <div className="list">
-  <div className="table-container">
-<table className="notes-table">
+  <div className="table-container table-container-responsive">
+<table className="notes-table" style={{fontSize:'15px'}}>
   <thead>
     <tr>
       <th rowSpan="3">Date</th>
@@ -302,10 +292,10 @@ const handleAddEmployee = () => {
     <tr>
       <th colSpan="2">Mini Plant</th>
       <th colSpan="2">Major Plant</th>
-      <th rowSpan="2">Officer</th>
+      <th rowSpan="2">Officer(S&D or CMH)</th>
       <th colSpan="2">Mini Plant</th>
       <th colSpan="2">Major Plant</th>
-      <th rowSpan="2">Officer</th>
+      <th rowSpan="2">Officer(S&D or CMH)</th>
     </tr>
     <tr>
       <th>Floor Officer</th>
@@ -321,16 +311,16 @@ const handleAddEmployee = () => {
   <tbody>
     
   {weekDates.map((date, index) => {
-                const isSunday = date.getDay() === 0;
+                
                 return (
                   <tr key={index}>
                     <td data-label="Date">{date.toDateString()}</td>
-                    {renderNotesByPlantAndShift("Mini", "A", isSunday,date)}
-                    {renderNotesByPlantAndShift("Major", "A", isSunday,date)}
-                    <td data-label="Shift A(Officers)">{isSunday ? "-" : renderOfficer("Officer", "A", isSunday,date)}</td>
-                    {renderNotesByPlantAndShift("Mini", "B", isSunday,date)}
-                    {renderNotesByPlantAndShift("Major", "B", isSunday,date)}
-                    <td data-label="Shift B(Officers)">{isSunday ? "-" : renderOfficer("Officer", "B", isSunday,date)}</td>
+                    {renderNotesByPlantAndShift("Mini", "A", date)}
+                    {renderNotesByPlantAndShift("Major", "A", date)}
+                    <td data-label="Shift A(Officers)">{renderOfficer("Officer", "A", date)}</td>
+                    {renderNotesByPlantAndShift("Mini", "B", date)}
+                    {renderNotesByPlantAndShift("Major", "B",date)}
+                    <td data-label="Shift B(Officers)">{ renderOfficer("Officer", "B",date)}</td>
                   </tr>
                 );
               })}
@@ -341,28 +331,10 @@ const handleAddEmployee = () => {
 
 
 <div className="center-container">
-          {/* <h2 className="title text-center">Maintenance(Normal Shift)</h2>
-          <div className="notes-row">{renderNotesByPost("Maintenance")}</div>
-          <h2 className="title">Safety (Normal Shift)</h2>
-          <div className="notes-row">{renderNotesByPost("Safety")}</div>
-
-          <h2 className="title">Capital (Normal Shift)</h2>
-          <div className="notes-row">{renderNotesByPost("Capital")}</div>
-
-          <h2 className="title">Store (Normal Shift)</h2>
-          <div className="notes-row">{renderNotesByPost("Store")}</div>
-          <h2 className="title">LIC (Normal Shift)</h2>
-          <div className="notes-row">{renderNotesByPost("LIC")}</div>
-          <h2 className="title">SIC (Normal Shift)</h2>
-          <div className="notes-row">{renderNotesByPost("SIC")}</div>
-
-          <h2 className="title">Bulk Loading</h2>
-          <div className="notes-row">{renderNotesByPost("Bulk Loading")}</div>
-
-          <h2 className="title3">Emergency Duty (From 22:00 to 06:00, including Sunday)</h2>
-          <div className="notes-row">{renderNotesByPost("Emergency Duty")}</div> */}
+          
           <Table notes={note} setUpdateUI={setUpdateUI} setPopupContent={setPopupContent} setShowPopup ={setShowPopup}/>
-          <button onClick={() => setShowInputs(!showInputs)}className="add-employee-button">Add Employee</button>
+          <div className="button-container">
+          <button onClick={() => setShowInputs(!showInputs)}className="add-employee-button">Leave Employees</button></div>
           {showInputs && (
         <Popupl
           setShowPopup={setShowPopup}
@@ -380,6 +352,23 @@ const handleAddEmployee = () => {
           <h2 className="title">On Leave Employee</h2>
           
           <NotesTable notes={note} setUpdateUI={setUpdateUI} />
+          <div className="button-container">
+        <button onClick={handleAddInst}className="add-employee-button">Special Instructions</button>
+       
+        </div>
+        
+        {showInput && (
+        <Inst
+        input={input}
+        setInput={setInput}
+        saveNotes={saveNotes}
+        setShowInput={setShowInput}
+        setShowPopup={setShowPopup}
+        setInst={setInst} // Add this line to set the inst state
+      />
+        )}
+        <InstTable notes={note} setInput={setInput} id={popupContent.id} setUpdateUI={setUpdateUI} />
+        {/* <NotesItem/> */}
           </div>
         </div>
       </div>

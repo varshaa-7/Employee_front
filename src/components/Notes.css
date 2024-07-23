@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto; /* Add this to center the container */
   padding: 20px;
   background-color: #fff;
@@ -125,7 +125,7 @@ body {
 .button-container {
   float: right;
   justify-content: flex-end; /* Change this from center to flex-end */
-  margin-bottom: 15px;
+  margin: 15px;
   text-align: right!important; /* Add this to align the button to the right */
 }
 
@@ -301,7 +301,7 @@ body {
   .printb{
     margin-top: 95px;
     width: 35px;
-    height: 25px;
+    height: 20px;
     cursor: pointer;
     align-items: flex-end;
   }
@@ -400,17 +400,116 @@ body {
       flex-wrap: wrap;
     }
   }
-  @media only screen and (max-width: 480px) {
-    .container {
-      padding: 1% 2%;
-      margin: 1% auto;
-    }
-    .button-container {
-      float: none;
-      text-align: center;
-    }
-    .add-employee-button {
-      width: 100%;
-      margin: 10px auto;
-    }
+  /* Existing styles */
+
+/* Add media queries for phone screens */
+
+@media only screen and (max-width: 470px) {
+  /* Adjust the container width and padding */
+  .container {
+    width: 100%;
+    max-width: 170%;
+    padding: 5px;
+    margin-left: 400px;
+    overflow-x: auto; /* Add a horizontal scrollbar when necessary */
   }
+  
+  /* Adjust the button container and button styles */
+  .button-container {
+    width: 900px;
+    max-width: 100%;
+    
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .add-employee-button {
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+  /* Adjust the table styles */
+  .table-container {
+    overflow-x: auto; /* Add a horizontal scrollbar when necessary */
+  }
+  
+  .notes-table {
+    font-size: 12px;
+    width: 150%; /* Make the table full-width */
+    /* text-align: right; 
+  direction: rtl; */
+  }
+  
+  .notes-table th, .notes-table td {
+    padding: 2px 4px;
+    width: 10%; /* Adjust the width of each column */
+  }
+  
+  .notes-table th {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .notes-table td {
+    font-size: 12px;
+    text-align: right;
+    width: 10%;
+  }
+  
+  /* Make the table cells more compact */
+  .notes-table td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 40px; /* Adjust the max width of each cell */
+  }
+  
+  /* Add a scrollbar to the table container */
+  .table-container::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  .table-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+  
+  .table-container::-webkit-scrollbar-track {
+    background-color: #f9f9f9;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* Adjust the table styles */
+  .notes-table {
+    font-size: 10px;
+    width: 100%;
+    max-width: 170%;
+    padding: 5px;
+    margin-left: 400px;
+    overflow-x: auto;
+  }
+  
+  .notes-table th, .notes-table td {
+    padding: 1px 2px;
+    width: 5%; /* Adjust the width of each column */
+  }
+  
+  .notes-table th {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .notes-table td {
+    font-size: 10px;
+  }
+  
+  /* Make the table cells even more compact */
+  .notes-table td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 20px; /* Adjust the max width of each cell */
+  }
+}

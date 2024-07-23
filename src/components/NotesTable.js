@@ -1,6 +1,6 @@
 
 import React from "react";
-import './NotesTable.css';
+import './Notes.css';
 import axios from 'axios';
 import { baseURL } from '../utils/constant';
 import { MdDelete } from "react-icons/md";
@@ -22,7 +22,7 @@ const deleteNotes=(id)=>{
   });
 };
   return (
-    <table className="leave-table">
+    <table className="leave-table" style={{width:'92%',fontSize:'15px'}}>
       <thead>
         <tr>
           <th>Employee</th>
