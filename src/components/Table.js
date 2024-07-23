@@ -12,7 +12,8 @@ const Table = ({ notes, setUpdateUI, setShowPopup, setPopupContent, popupContent
     "LIC",
     "SIC",
     "Bulk Loading",
-    "Emergency Duty"
+    "Emergency Duty",
+    "Second Incharge"
   ];
 
   const renderNotesByPost = (postType) => {

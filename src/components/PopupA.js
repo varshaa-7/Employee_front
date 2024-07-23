@@ -28,6 +28,7 @@ const PopupA = ({ input, setInput, saveNotes, setShowInputss }) => {
             <option value="" disabled>
               Select post
             </option>
+            <option value="Second Incharge">Second Incharge</option>
             <option value="Officer">Officer</option>
             <option value="Floor Officer">Floor Officer</option>
             <option value="Maintenance">Maintenance</option>
