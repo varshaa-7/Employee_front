@@ -49,17 +49,17 @@ const NotesItem = ({text,post,plant, shift,status,id,date,inst,setUpdateUI, setS
             })
             .catch((err) => console.log(err));
     };
-    useEffect(() => {
-        const today = new Date();
-        if (leaveEndDate && today >= new Date(leaveEndDate) && status === 'on leave') {
-          axios.put(`${baseURL}/update/${id}`, { status: 'working' })
-            .then((res) => {
-              console.log(res.data);
-              setUpdateUI((prev) => !prev);
-            })
-            .catch((err) => console.log(err));
-        }
-      }, [leaveEndDate, status, id, setUpdateUI]);
+    // useEffect(() => {
+    //     const today = new Date();
+    //     if (leaveEndDate && today >= new Date(leaveEndDate) && status === 'on leave') {
+    //       axios.put(`${baseURL}/update/${id}`, { status: 'working' })
+    //         .then((res) => {
+    //           console.log(res.data);
+    //           setUpdateUI((prev) => !prev);
+    //         })
+    //         .catch((err) => console.log(err));
+    //     }
+    //   }, [leaveEndDate, status, id, setUpdateUI]);
     // const toggleStatus = () => {
     //     const newStatus = status === 'working' ? 'on leave' : 'working';
     //     axios.put(`${baseURL}/update/${id}`, { status: newStatus })
