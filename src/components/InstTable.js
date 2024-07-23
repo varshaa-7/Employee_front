@@ -19,7 +19,7 @@ const InstTable=({notes,inst,setUpdateUI,id }) =>{
   return (
     <>
     
-    <table style={{ width: '95%', textAlign: 'left', color:'black', margin:'10px' }}>
+    <table style={{ width: '92%', textAlign: 'left', color:'black', margin:'10px' }}>
     {filteredNotes.map((note, index) => (
       <tr key={note._id}>
         <td>{index + 1}</td>

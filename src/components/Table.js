@@ -43,7 +43,7 @@ const Table = ({ notes, setUpdateUI, setShowPopup, setPopupContent, popupContent
   return (
     <div className="list" style={{ fontSize:'15px'}}>
   <div className="table-container">
-    <table className="notes-table" >
+    <table className="notes-table"style={{width:'92%',fontSize:'15px'}} >
       <thead>
         <tr>
           {sections.map(section => (

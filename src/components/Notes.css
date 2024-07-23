@@ -357,6 +357,7 @@ body {
     
    .notes-table {
       font-size: 14px;
+      align-items: center;
     }
     
    .notes-table th,.notes-table td {
@@ -412,6 +413,9 @@ body {
     padding: 5px;
     margin-left: 400px;
     overflow-x: auto; /* Add a horizontal scrollbar when necessary */
+  }
+  .list{
+    width: 100%;
   }
   
   /* Adjust the button container and button styles */
@@ -489,6 +493,9 @@ body {
     padding: 5px;
     margin-left: 400px;
     overflow-x: auto;
+  }
+  .list{
+    width: 100%;
   }
   
   .notes-table th, .notes-table td {

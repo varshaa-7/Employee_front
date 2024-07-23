@@ -282,7 +282,7 @@ const handleAddInst = () => {
         )}
         <div className="list">
   <div className="table-container table-container-responsive">
-<table className="notes-table" style={{fontSize:'15px'}}>
+<table className="notes-table" style={{width:'92%',fontSize:'15px'}}>
   <thead>
     <tr>
       <th rowSpan="3">Date</th>
